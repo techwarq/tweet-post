@@ -1,0 +1,169 @@
+2025-04-09 01:03:57,835 - TwitterTool - INFO - TwitterTool initialized with data directory: data
+2025-04-09 01:04:03,625 - TwitterTool - INFO - Loaded tweets data for safwaankay
+2025-04-09 01:04:03,627 - TwitterTool - INFO - Generating post for @safwaankay on topic 'Technology' with length 'Short'
+2025-04-09 01:04:03,627 - TwitterTool - INFO - Loaded tweets data for safwaankay
+2025-04-09 01:04:03,627 - TwitterTool - INFO - Loaded analysis data for safwaankay
+2025-04-09 01:04:03,628 - TwitterTool - INFO - Successfully retrieved user information for default_user
+2025-04-09 01:04:03,628 - TwitterTool - INFO - Loaded user info for default_user
+2025-04-09 01:04:03,628 - TwitterTool - INFO - Sending prompt to LLM for post generation
+2025-04-09 01:04:05,235 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-09 01:04:05,264 - TwitterTool - INFO - Successfully generated post for @safwaankay
+2025-04-09 01:04:33,591 - TwitterTool - INFO - Successfully saved user information for default_user
+2025-04-09 01:04:52,493 - TwitterTool - INFO - Starting scrape_profile for minchoi
+2025-04-09 01:04:52,493 - TwitterTool - INFO - Extracting tweets from https://x.com/minchoi with depth advanced
+2025-04-09 01:05:19,033 - TwitterTool - WARNING - No results returned from extraction API for https://x.com/minchoi
+2025-04-09 01:05:19,037 - TwitterTool - INFO - Extracting tweets from https://x.com/minchoi/with_replies with depth advanced
+2025-04-09 01:05:42,975 - TwitterTool - WARNING - No results returned from extraction API for https://x.com/minchoi/with_replies
+2025-04-09 01:05:42,978 - TwitterTool - INFO - Deduplicated 0 tweets to 0 unique tweets
+2025-04-09 01:05:42,978 - TwitterTool - INFO - Not enough tweets found (0). Trying advanced extraction.
+2025-04-09 01:05:42,978 - TwitterTool - INFO - Extracting tweets from https://x.com/minchoi with depth advanced
+2025-04-09 01:06:02,087 - TwitterTool - INFO - Processing raw content for tweets from @minchoi
+2025-04-09 01:06:06,747 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-09 01:06:06,755 - TwitterTool - INFO - Processed 5 tweets from raw content
+2025-04-09 01:06:06,755 - TwitterTool - INFO - Extracted 5 tweets from https://x.com/minchoi
+2025-04-09 01:06:06,755 - TwitterTool - INFO - Deduplicated 5 tweets to 5 unique tweets
+2025-04-09 01:06:06,757 - TwitterTool - INFO - Saved tweets data for minchoi
+2025-04-09 01:06:06,757 - TwitterTool - INFO - Analyzing 5 tweets for @minchoi
+2025-04-09 01:06:07,412 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-09 01:06:07,417 - TwitterTool - INFO - Saved analysis data for minchoi
+2025-04-09 01:06:07,417 - TwitterTool - INFO - Analysis completed successfully for @minchoi
+2025-04-09 01:06:07,417 - TwitterTool - INFO - Successfully scraped 5 tweets from @minchoi
+2025-04-09 01:06:16,587 - TwitterTool - INFO - Loaded tweets data for minchoi
+2025-04-09 01:06:16,588 - TwitterTool - INFO - Generating post for @minchoi on topic 'Technology' with length 'Short'
+2025-04-09 01:06:16,588 - TwitterTool - INFO - Loaded tweets data for minchoi
+2025-04-09 01:06:16,588 - TwitterTool - INFO - Loaded analysis data for minchoi
+2025-04-09 01:06:16,589 - TwitterTool - INFO - Successfully retrieved user information for default_user
+2025-04-09 01:06:16,589 - TwitterTool - INFO - Loaded user info for default_user
+2025-04-09 01:06:16,589 - TwitterTool - INFO - Sending prompt to LLM for post generation
+2025-04-09 01:06:17,080 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-09 01:06:17,084 - TwitterTool - INFO - Successfully generated post for @minchoi
+2025-04-09 01:12:09,603 - TwitterTool - INFO - TwitterTool initialized with data directory: data
+2025-04-09 01:13:00,743 - TwitterTool - INFO - TwitterTool initialized with data directory: data
+2025-04-09 01:15:43,662 - TwitterTool - INFO - TwitterTool initialized with data directory: data
+2025-04-09 01:15:46,668 - TwitterTool - INFO - TwitterTool initialized with data directory: data
+2025-04-09 01:15:52,682 - TwitterTool - INFO - Loaded tweets data for minchoi
+2025-04-09 01:15:52,682 - TwitterTool - INFO - Generating post for @minchoi on topic 'Technology' with length 'Short'
+2025-04-09 01:15:52,683 - TwitterTool - INFO - Loaded tweets data for minchoi
+2025-04-09 01:15:52,683 - TwitterTool - INFO - Loaded analysis data for minchoi
+2025-04-09 01:15:52,683 - TwitterTool - INFO - Successfully retrieved user information for default_user
+2025-04-09 01:15:52,683 - TwitterTool - INFO - Loaded user info for default_user
+2025-04-09 01:15:52,684 - TwitterTool - INFO - Sending prompt to LLM for post generation
+2025-04-09 01:15:54,328 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-09 01:15:54,357 - TwitterTool - INFO - Successfully generated post for @minchoi
+2025-04-09 01:16:07,255 - TwitterTool - INFO - Loaded tweets data for minchoi
+2025-04-09 01:16:07,255 - TwitterTool - INFO - Generating post for @minchoi on topic 'Technology' with length 'Short'
+2025-04-09 01:16:07,255 - TwitterTool - INFO - Loaded tweets data for minchoi
+2025-04-09 01:16:07,256 - TwitterTool - INFO - Loaded analysis data for minchoi
+2025-04-09 01:16:07,256 - TwitterTool - INFO - Successfully retrieved user information for default_user
+2025-04-09 01:16:07,256 - TwitterTool - INFO - Loaded user info for default_user
+2025-04-09 01:16:07,257 - TwitterTool - INFO - Sending prompt to LLM for post generation
+2025-04-09 01:16:07,862 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-09 01:16:07,866 - TwitterTool - INFO - Successfully generated post for @minchoi
+2025-04-09 01:16:25,631 - TwitterTool - INFO - Loaded tweets data for minchoi
+2025-04-09 01:16:25,631 - TwitterTool - INFO - Generating post for @minchoi on topic 'Technology' with length 'Long'
+2025-04-09 01:16:25,632 - TwitterTool - INFO - Loaded tweets data for minchoi
+2025-04-09 01:16:25,632 - TwitterTool - INFO - Loaded analysis data for minchoi
+2025-04-09 01:16:25,632 - TwitterTool - INFO - Successfully retrieved user information for default_user
+2025-04-09 01:16:25,632 - TwitterTool - INFO - Loaded user info for default_user
+2025-04-09 01:16:25,633 - TwitterTool - INFO - Sending prompt to LLM for post generation
+2025-04-09 01:16:26,540 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-09 01:16:26,544 - TwitterTool - INFO - Successfully generated post for @minchoi
+2025-04-09 01:16:54,310 - TwitterTool - INFO - TwitterTool initialized with data directory: data
+2025-04-09 01:16:57,146 - TwitterTool - INFO - TwitterTool initialized with data directory: data
+2025-04-09 01:17:00,237 - TwitterTool - INFO - TwitterTool initialized with data directory: data
+2025-04-09 01:17:05,737 - TwitterTool - INFO - TwitterTool initialized with data directory: data
+2025-04-09 01:17:32,836 - TwitterTool - INFO - TwitterTool initialized with data directory: data
+2025-04-09 01:18:01,621 - TwitterTool - INFO - Loaded tweets data for minchoi
+2025-04-09 01:18:01,622 - TwitterTool - INFO - Generating post for @minchoi on topic 'Technology' with length 'Long'
+2025-04-09 01:18:01,623 - TwitterTool - INFO - Loaded tweets data for minchoi
+2025-04-09 01:18:01,623 - TwitterTool - INFO - Loaded analysis data for minchoi
+2025-04-09 01:18:01,624 - TwitterTool - INFO - Successfully retrieved user information for default_user
+2025-04-09 01:18:01,624 - TwitterTool - INFO - Loaded user info for default_user
+2025-04-09 01:18:01,624 - TwitterTool - INFO - Sending prompt to LLM for post generation
+2025-04-09 01:18:02,423 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-09 01:18:02,449 - TwitterTool - INFO - Successfully generated post for @minchoi
+2025-04-09 01:19:40,025 - TwitterTool - INFO - Loaded tweets data for minchoi
+2025-04-09 01:19:40,026 - TwitterTool - INFO - Generating post for @minchoi on topic 'Technology' with length 'Long'
+2025-04-09 01:19:40,026 - TwitterTool - INFO - Loaded tweets data for minchoi
+2025-04-09 01:19:40,027 - TwitterTool - INFO - Loaded analysis data for minchoi
+2025-04-09 01:19:40,027 - TwitterTool - INFO - Successfully retrieved user information for default_user
+2025-04-09 01:19:40,027 - TwitterTool - INFO - Loaded user info for default_user
+2025-04-09 01:19:40,028 - TwitterTool - INFO - Sending prompt to LLM for post generation
+2025-04-09 01:19:40,985 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-09 01:19:40,988 - TwitterTool - INFO - Successfully generated post for @minchoi
+2025-04-09 11:06:31,519 - TwitterTool - INFO - TwitterTool initialized with data directory: data
+2025-04-09 11:11:59,849 - TwitterTool - INFO - Successfully saved user information for default_user
+2025-04-09 11:18:22,541 - TwitterTool - INFO - TwitterTool initialized with data directory: data
+2025-04-09 11:18:23,697 - TwitterTool - INFO - TwitterTool initialized with data directory: data
+2025-04-09 11:18:26,679 - TwitterTool - INFO - TwitterTool initialized with data directory: data
+2025-04-09 11:18:31,645 - TwitterTool - INFO - TwitterTool initialized with data directory: data
+2025-04-09 11:18:51,034 - TwitterTool - INFO - TwitterTool initialized with data directory: data
+2025-04-09 11:22:40,417 - TwitterTool - INFO - Starting scrape_profile for safwaankay
+2025-04-09 11:22:40,419 - TwitterTool - INFO - Extracting tweets from https://x.com/safwaankay with depth advanced
+2025-04-09 11:22:42,327 - TwitterTool - INFO - Processing raw content for tweets from @safwaankay
+2025-04-09 11:22:45,218 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-09 11:22:45,245 - TwitterTool - INFO - Processed 8 tweets from raw content
+2025-04-09 11:22:45,245 - TwitterTool - INFO - Extracted 8 tweets from https://x.com/safwaankay
+2025-04-09 11:22:45,246 - TwitterTool - INFO - Extracting tweets from https://x.com/safwaankay/with_replies with depth advanced
+2025-04-09 11:23:11,428 - TwitterTool - WARNING - No results returned from extraction API for https://x.com/safwaankay/with_replies
+2025-04-09 11:23:11,429 - TwitterTool - ERROR - Error scraping profile: 'NoneType' object has no attribute 'strip'
+2025-04-09 11:24:28,634 - TwitterTool - INFO - TwitterTool initialized with data directory: data
+2025-04-09 11:24:32,078 - TwitterTool - INFO - TwitterTool initialized with data directory: data
+2025-04-09 11:24:34,879 - TwitterTool - INFO - TwitterTool initialized with data directory: data
+2025-04-09 11:24:39,564 - TwitterTool - INFO - Starting scrape_profile for safwaankay
+2025-04-09 11:24:39,564 - TwitterTool - INFO - Extracting tweets from https://x.com/safwaankay with depth advanced
+2025-04-09 11:24:40,720 - TwitterTool - INFO - Processing raw content for tweets from @safwaankay
+2025-04-09 11:24:43,715 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-09 11:24:43,736 - TwitterTool - INFO - Processed 8 tweets from raw content
+2025-04-09 11:24:43,736 - TwitterTool - INFO - Extracted 8 tweets from https://x.com/safwaankay
+2025-04-09 11:24:43,737 - TwitterTool - ERROR - Error scraping profile: 'NoneType' object has no attribute 'strip'
+2025-04-09 11:27:02,692 - TwitterTool - INFO - Starting scrape_profile for minchoi
+2025-04-09 11:27:02,692 - TwitterTool - INFO - Extracting tweets from https://x.com/minchoi with depth advanced
+2025-04-09 11:27:04,100 - TwitterTool - INFO - Processing raw content for tweets from @minchoi
+2025-04-09 11:27:05,983 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-09 11:27:05,992 - TwitterTool - INFO - Processed 5 tweets from raw content
+2025-04-09 11:27:05,992 - TwitterTool - INFO - Extracted 5 tweets from https://x.com/minchoi
+2025-04-09 11:27:05,993 - TwitterTool - INFO - Deduplicated 5 tweets to 5 unique tweets
+2025-04-09 11:27:05,993 - TwitterTool - INFO - Not enough tweets found (5). Trying advanced extraction.
+2025-04-09 11:27:05,993 - TwitterTool - INFO - Extracting tweets from https://x.com/minchoi with depth advanced
+2025-04-09 11:27:07,139 - TwitterTool - INFO - Processing raw content for tweets from @minchoi
+2025-04-09 11:27:08,810 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-09 11:27:08,812 - TwitterTool - INFO - Processed 5 tweets from raw content
+2025-04-09 11:27:08,813 - TwitterTool - INFO - Extracted 5 tweets from https://x.com/minchoi
+2025-04-09 11:27:08,813 - TwitterTool - INFO - Deduplicated 10 tweets to 5 unique tweets
+2025-04-09 11:27:08,816 - TwitterTool - INFO - Saved tweets data for minchoi
+2025-04-09 11:27:08,816 - TwitterTool - INFO - Analyzing 5 tweets for @minchoi
+2025-04-09 11:27:09,731 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-09 11:27:09,737 - TwitterTool - INFO - Saved analysis data for minchoi
+2025-04-09 11:27:09,737 - TwitterTool - INFO - Analysis completed successfully for @minchoi
+2025-04-09 11:27:09,737 - TwitterTool - INFO - Successfully scraped 5 tweets from @minchoi
+2025-04-09 11:28:00,082 - TwitterTool - INFO - Loaded tweets data for minchoi
+2025-04-09 11:28:00,083 - TwitterTool - INFO - Generating post for @minchoi on topic 'Technology' with length 'Short'
+2025-04-09 11:28:00,083 - TwitterTool - INFO - Loaded tweets data for minchoi
+2025-04-09 11:28:00,084 - TwitterTool - INFO - Loaded analysis data for minchoi
+2025-04-09 11:28:00,084 - TwitterTool - INFO - Successfully retrieved user information for default_user
+2025-04-09 11:28:00,084 - TwitterTool - INFO - Loaded user info for default_user
+2025-04-09 11:28:00,085 - TwitterTool - INFO - Sending prompt to LLM for post generation
+2025-04-09 11:28:00,931 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-09 11:28:00,935 - TwitterTool - INFO - Successfully generated post for @minchoi
+2025-04-09 18:37:45,649 - TwitterTool - INFO - TwitterTool initialized with data directory: data
+2025-04-09 18:38:56,550 - TwitterTool - INFO - Starting scrape_profile for /minchoi
+2025-04-09 18:38:56,550 - TwitterTool - INFO - Extracting tweets from https://x.com//minchoi with depth advanced
+2025-04-09 18:39:09,249 - TwitterTool - INFO - Processing raw content for tweets from @/minchoi
+2025-04-09 18:39:12,484 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-09 18:39:12,509 - TwitterTool - INFO - Processed 5 tweets from raw content
+2025-04-09 18:39:12,509 - TwitterTool - INFO - Extracted 5 tweets from https://x.com//minchoi
+2025-04-09 18:39:12,509 - TwitterTool - INFO - Deduplicated 5 tweets to 5 unique tweets
+2025-04-09 18:39:12,509 - TwitterTool - INFO - Not enough tweets found (5). Trying advanced extraction.
+2025-04-09 18:39:12,509 - TwitterTool - INFO - Extracting tweets from https://x.com//minchoi with depth advanced
+2025-04-09 18:39:13,950 - TwitterTool - INFO - Processing raw content for tweets from @/minchoi
+2025-04-09 18:39:15,422 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-09 18:39:15,431 - TwitterTool - INFO - Processed 5 tweets from raw content
+2025-04-09 18:39:15,431 - TwitterTool - INFO - Extracted 5 tweets from https://x.com//minchoi
+2025-04-09 18:39:15,431 - TwitterTool - INFO - Deduplicated 10 tweets to 5 unique tweets
+2025-04-09 18:39:15,432 - TwitterTool - ERROR - Error saving tweets data for /minchoi: [Errno 30] Read-only file system: '/minchoi_tweets.json'
+2025-04-09 18:39:15,432 - TwitterTool - INFO - Analyzing 5 tweets for @/minchoi
+2025-04-09 18:39:16,186 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-09 18:39:16,188 - TwitterTool - ERROR - Error saving analysis data for /minchoi: [Errno 30] Read-only file system: '/minchoi_analysis.json'
+2025-04-09 18:39:16,188 - TwitterTool - INFO - Analysis completed successfully for @/minchoi
+2025-04-09 18:39:16,188 - TwitterTool - INFO - Successfully scraped 5 tweets from @/minchoi

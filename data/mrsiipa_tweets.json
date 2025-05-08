@@ -1,0 +1,58 @@
+[
+    {
+        "text": "nothing comes close to this one.",
+        "likes": 48,
+        "retweets": 12000,
+        "views": 3100000,
+        "url": null,
+        "engagement_score": 24048
+    },
+    {
+        "text": "> opens X app > sees a banger post > X auto refreshes > post lost forever",
+        "likes": 349,
+        "retweets": 6600,
+        "views": 1600000,
+        "url": null,
+        "engagement_score": 13549
+    },
+    {
+        "text": "dude how tf did we take sand and make it into 3nm chips that can do numerical computations billions of times per second, and we use those chips to make machines \"learn\" !?!?!? magic does not exist in the real world because this is what real magic is.",
+        "likes": 237,
+        "retweets": 2100,
+        "views": 711000,
+        "url": null,
+        "engagement_score": 4537
+    },
+    {
+        "text": "math looks easier in code, i wonder why",
+        "likes": 767,
+        "retweets": 1500,
+        "views": 1400000,
+        "url": null,
+        "engagement_score": 3967
+    },
+    {
+        "text": "nvidia casually dropped an open 70B model that beats gpt-4o and claude 3.5 sonnet",
+        "likes": 219,
+        "retweets": 1400,
+        "views": 1800000,
+        "url": null,
+        "engagement_score": 3919
+    },
+    {
+        "text": "xD",
+        "likes": 66,
+        "retweets": 3000,
+        "views": 1100000,
+        "url": null,
+        "engagement_score": 696
+    },
+    {
+        "text": "Opening smolorg! A github organization that focuses on implementing cool things from scratch in a simple, understandable, yet educative way. Current repositories: > smolgrad (autograd engine) > smolar (numpy in C) > smolvecstore (vectorstore in numpy) More cool things otw.",
+        "likes": 46,
+        "retweets": 95,
+        "views": 1800000,
+        "url": null,
+        "engagement_score": 236
+    }
+]

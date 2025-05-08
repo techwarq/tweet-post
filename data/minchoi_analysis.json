@@ -1,0 +1,19 @@
+{
+    "content_patterns": [
+        "AI/tech-related topics",
+        "Surprise/astonishment",
+        "Listing examples or use cases"
+    ],
+    "style_elements": [
+        "Concise and catchy headlines",
+        "Use of rhetorical questions",
+        "Incorporating popular culture references"
+    ],
+    "optimal_format": "Short, attention-grabbing headline + brief explanation + examples/use cases",
+    "recommendations": [
+        "Use numbers in your tweet to highlight examples or use cases",
+        "Keep your tweet concise and focused on one main idea",
+        "Incorporate elements of surprise or curiosity to pique users' interest"
+    ],
+    "success": true
+}
