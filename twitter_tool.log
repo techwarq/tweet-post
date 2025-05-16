@@ -167,3 +167,1017 @@
 2025-04-09 18:39:16,188 - TwitterTool - ERROR - Error saving analysis data for /minchoi: [Errno 30] Read-only file system: '/minchoi_analysis.json'
 2025-04-09 18:39:16,188 - TwitterTool - INFO - Analysis completed successfully for @/minchoi
 2025-04-09 18:39:16,188 - TwitterTool - INFO - Successfully scraped 5 tweets from @/minchoi
+2025-05-08 12:45:03,967 - TwitterTool - INFO - TwitterTool initialized with data directory: data
+2025-05-15 09:37:28,474 - TwitterTool - INFO - TwitterTool initialized with data directory: data
+2025-05-15 09:37:29,669 - TwitterTool - INFO - TwitterTool initialized with data directory: data
+2025-05-15 09:40:19,405 - TwitterTool - INFO - TwitterTool initialized with data directory: data
+2025-05-15 09:41:57,173 - TwitterTool - INFO - Successfully saved user information for default_user
+2025-05-15 09:42:13,257 - TwitterTool - INFO - Starting profile scrape for minchoi
+2025-05-15 09:42:13,258 - TwitterTool - INFO - Starting snscrape CLI for @minchoi
+2025-05-15 09:42:13,965 - TwitterTool - ERROR - Error with snscrape CLI: Command '['snscrape', '--jsonl', '--max-results', '100', 'twitter-user:minchoi']' returned non-zero exit status 1.
+Output: Traceback (most recent call last):
+  File "/Users/sonalinayak/Tweet-post/venv/bin/snscrape", line 8, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/Users/sonalinayak/Tweet-post/venv/lib/python3.12/site-packages/snscrape/_cli.py", line 308, in main
+    args = parse_args()
+           ^^^^^^^^^^^^
+  File "/Users/sonalinayak/Tweet-post/venv/lib/python3.12/site-packages/snscrape/_cli.py", line 233, in parse_args
+    import snscrape.modules
+  File "/Users/sonalinayak/Tweet-post/venv/lib/python3.12/site-packages/snscrape/modules/__init__.py", line 17, in <module>
+    _import_modules()
+  File "/Users/sonalinayak/Tweet-post/venv/lib/python3.12/site-packages/snscrape/modules/__init__.py", line 13, in _import_modules
+    module = importer.find_module(moduleName).load_module(moduleName)
+             ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'FileFinder' object has no attribute 'find_module'
+
+2025-05-15 09:42:25,328 - TwitterTool - INFO - Starting profile scrape for safwaankay
+2025-05-15 09:42:25,329 - TwitterTool - INFO - Starting snscrape CLI for @safwaankay
+2025-05-15 09:42:25,645 - TwitterTool - ERROR - Error with snscrape CLI: Command '['snscrape', '--jsonl', '--max-results', '100', 'twitter-user:safwaankay']' returned non-zero exit status 1.
+Output: Traceback (most recent call last):
+  File "/Users/sonalinayak/Tweet-post/venv/bin/snscrape", line 8, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/Users/sonalinayak/Tweet-post/venv/lib/python3.12/site-packages/snscrape/_cli.py", line 308, in main
+    args = parse_args()
+           ^^^^^^^^^^^^
+  File "/Users/sonalinayak/Tweet-post/venv/lib/python3.12/site-packages/snscrape/_cli.py", line 233, in parse_args
+    import snscrape.modules
+  File "/Users/sonalinayak/Tweet-post/venv/lib/python3.12/site-packages/snscrape/modules/__init__.py", line 17, in <module>
+    _import_modules()
+  File "/Users/sonalinayak/Tweet-post/venv/lib/python3.12/site-packages/snscrape/modules/__init__.py", line 13, in _import_modules
+    module = importer.find_module(moduleName).load_module(moduleName)
+             ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'FileFinder' object has no attribute 'find_module'
+
+2025-05-15 09:46:54,800 - TwitterTool - INFO - TwitterTool initialized with data directory: data
+2025-05-15 09:46:54,966 - TwitterTool - WARNING - snscrape is installed but may have issues: Traceback (most recent call last):
+  File "/Users/sonalinayak/Tweet-post/venv/bin/snscrape", line 8, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/Users/sonalinayak/Tweet-post/venv/lib/python3.12/site-packages/snscrape/_cli.py", line 308, in main
+    args = parse_args()
+           ^^^^^^^^^^^^
+  File "/Users/sonalinayak/Tweet-post/venv/lib/python3.12/site-packages/snscrape/_cli.py", line 233, in parse_args
+    import snscrape.modules
+  File "/Users/sonalinayak/Tweet-post/venv/lib/python3.12/site-packages/snscrape/modules/__init__.py", line 17, in <module>
+    _import_modules()
+  File "/Users/sonalinayak/Tweet-post/venv/lib/python3.12/site-packages/snscrape/modules/__init__.py", line 13, in _import_modules
+    module = importer.find_module(moduleName).load_module(moduleName)
+             ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'FileFinder' object has no attribute 'find_module'
+
+2025-05-15 09:47:54,818 - TwitterTool - INFO - Starting profile scrape for safwaankay
+2025-05-15 09:47:54,822 - TwitterTool - INFO - Starting snscrape CLI for @safwaankay
+2025-05-15 09:47:54,870 - TwitterTool - ERROR - CLI command failed with error: /Users/sonalinayak/Tweet-post/venv/bin/python: No module named snscrape.__main__; 'snscrape' is a package and cannot be directly executed
+
+2025-05-15 09:47:54,871 - TwitterTool - INFO - Attempting to use snscrape Python API for @safwaankay
+2025-05-15 09:47:54,874 - TwitterTool - ERROR - Error using snscrape Python API: 'FileFinder' object has no attribute 'find_module'
+2025-05-15 09:47:54,874 - TwitterTool - WARNING - No tweets found, creating example data
+2025-05-15 09:47:54,874 - TwitterTool - INFO - Creating example tweets for safwaankay
+2025-05-15 09:47:54,874 - TwitterTool - INFO - Deduplicated 2 tweets to 2 unique tweets
+2025-05-15 09:47:54,878 - TwitterTool - INFO - Saved tweets data for safwaankay
+2025-05-15 09:47:54,878 - TwitterTool - INFO - Analyzing 2 tweets for @safwaankay
+2025-05-15 09:47:55,099 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-05-15 09:47:55,100 - TwitterTool - ERROR - Error in tweet analysis: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+2025-05-15 09:47:55,100 - TwitterTool - INFO - Successfully scraped profile for @safwaankay
+2025-05-15 09:48:35,454 - TwitterTool - INFO - Loaded tweets data for safwaankay
+2025-05-15 09:48:35,455 - TwitterTool - INFO - Generating post for @safwaankay on topic 'Technology' with length 'Short'
+2025-05-15 09:48:35,455 - TwitterTool - INFO - Loaded tweets data for safwaankay
+2025-05-15 09:48:35,456 - TwitterTool - INFO - Loaded analysis data for safwaankay
+2025-05-15 09:48:35,456 - TwitterTool - INFO - Successfully retrieved user information for default_user
+2025-05-15 09:48:35,456 - TwitterTool - INFO - Loaded user info for default_user
+2025-05-15 09:48:35,457 - TwitterTool - INFO - Sending prompt to LLM for post generation
+2025-05-15 09:48:35,598 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-05-15 09:48:35,599 - TwitterTool - ERROR - Critical error in generate_post: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+2025-05-15 09:50:07,851 - TwitterTool - INFO - Loaded tweets data for safwaankay
+2025-05-15 09:50:07,852 - TwitterTool - INFO - Generating post for @safwaankay on topic 'Technology' with length 'Short'
+2025-05-15 09:50:07,853 - TwitterTool - INFO - Loaded tweets data for safwaankay
+2025-05-15 09:50:07,854 - TwitterTool - INFO - Loaded analysis data for safwaankay
+2025-05-15 09:50:07,855 - TwitterTool - INFO - Successfully retrieved user information for default_user
+2025-05-15 09:50:07,855 - TwitterTool - INFO - Loaded user info for default_user
+2025-05-15 09:50:07,856 - TwitterTool - INFO - Sending prompt to LLM for post generation
+2025-05-15 09:50:08,065 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-05-15 09:50:08,067 - TwitterTool - ERROR - Critical error in generate_post: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+2025-05-15 09:50:37,901 - TwitterTool - INFO - TwitterTool initialized with data directory: data
+2025-05-15 09:50:38,070 - TwitterTool - WARNING - snscrape is installed but may have issues: Traceback (most recent call last):
+  File "/Users/sonalinayak/Tweet-post/venv/bin/snscrape", line 8, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/Users/sonalinayak/Tweet-post/venv/lib/python3.12/site-packages/snscrape/_cli.py", line 308, in main
+    args = parse_args()
+           ^^^^^^^^^^^^
+  File "/Users/sonalinayak/Tweet-post/venv/lib/python3.12/site-packages/snscrape/_cli.py", line 233, in parse_args
+    import snscrape.modules
+  File "/Users/sonalinayak/Tweet-post/venv/lib/python3.12/site-packages/snscrape/modules/__init__.py", line 17, in <module>
+    _import_modules()
+  File "/Users/sonalinayak/Tweet-post/venv/lib/python3.12/site-packages/snscrape/modules/__init__.py", line 13, in _import_modules
+    module = importer.find_module(moduleName).load_module(moduleName)
+             ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'FileFinder' object has no attribute 'find_module'
+
+2025-05-15 09:50:39,084 - TwitterTool - INFO - TwitterTool initialized with data directory: data
+2025-05-15 09:50:39,242 - TwitterTool - WARNING - snscrape is installed but may have issues: Traceback (most recent call last):
+  File "/Users/sonalinayak/Tweet-post/venv/bin/snscrape", line 8, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/Users/sonalinayak/Tweet-post/venv/lib/python3.12/site-packages/snscrape/_cli.py", line 308, in main
+    args = parse_args()
+           ^^^^^^^^^^^^
+  File "/Users/sonalinayak/Tweet-post/venv/lib/python3.12/site-packages/snscrape/_cli.py", line 233, in parse_args
+    import snscrape.modules
+  File "/Users/sonalinayak/Tweet-post/venv/lib/python3.12/site-packages/snscrape/modules/__init__.py", line 17, in <module>
+    _import_modules()
+  File "/Users/sonalinayak/Tweet-post/venv/lib/python3.12/site-packages/snscrape/modules/__init__.py", line 13, in _import_modules
+    module = importer.find_module(moduleName).load_module(moduleName)
+             ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'FileFinder' object has no attribute 'find_module'
+
+2025-05-15 09:50:53,025 - TwitterTool - INFO - Loaded tweets data for safwaankay
+2025-05-15 09:50:53,026 - TwitterTool - INFO - Generating post for @safwaankay on topic 'Technology' with length 'Short'
+2025-05-15 09:50:53,026 - TwitterTool - INFO - Loaded tweets data for safwaankay
+2025-05-15 09:50:53,027 - TwitterTool - INFO - Loaded analysis data for safwaankay
+2025-05-15 09:50:53,027 - TwitterTool - INFO - Successfully retrieved user information for default_user
+2025-05-15 09:50:53,027 - TwitterTool - INFO - Loaded user info for default_user
+2025-05-15 09:50:53,028 - TwitterTool - INFO - Sending prompt to LLM for post generation
+2025-05-15 09:50:53,186 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-05-15 09:50:53,196 - TwitterTool - ERROR - Critical error in generate_post: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+2025-05-15 09:50:54,522 - TwitterTool - INFO - Loaded tweets data for safwaankay
+2025-05-15 09:50:54,523 - TwitterTool - INFO - Generating post for @safwaankay on topic 'Technology' with length 'Short'
+2025-05-15 09:50:54,523 - TwitterTool - INFO - Loaded tweets data for safwaankay
+2025-05-15 09:50:54,523 - TwitterTool - INFO - Loaded analysis data for safwaankay
+2025-05-15 09:50:54,523 - TwitterTool - INFO - Successfully retrieved user information for default_user
+2025-05-15 09:50:54,523 - TwitterTool - INFO - Loaded user info for default_user
+2025-05-15 09:50:54,523 - TwitterTool - INFO - Sending prompt to LLM for post generation
+2025-05-15 09:50:54,614 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-05-15 09:50:54,615 - TwitterTool - ERROR - Critical error in generate_post: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+2025-05-15 09:50:54,720 - TwitterTool - INFO - Loaded tweets data for safwaankay
+2025-05-15 09:50:54,720 - TwitterTool - INFO - Generating post for @safwaankay on topic 'Technology' with length 'Short'
+2025-05-15 09:50:54,720 - TwitterTool - INFO - Loaded tweets data for safwaankay
+2025-05-15 09:50:54,720 - TwitterTool - INFO - Loaded analysis data for safwaankay
+2025-05-15 09:50:54,720 - TwitterTool - INFO - Successfully retrieved user information for default_user
+2025-05-15 09:50:54,720 - TwitterTool - INFO - Loaded user info for default_user
+2025-05-15 09:50:54,721 - TwitterTool - INFO - Sending prompt to LLM for post generation
+2025-05-15 09:50:54,782 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-05-15 09:50:54,783 - TwitterTool - ERROR - Critical error in generate_post: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+2025-05-15 09:50:54,870 - TwitterTool - INFO - Loaded tweets data for safwaankay
+2025-05-15 09:50:54,870 - TwitterTool - INFO - Generating post for @safwaankay on topic 'Technology' with length 'Short'
+2025-05-15 09:50:54,870 - TwitterTool - INFO - Loaded tweets data for safwaankay
+2025-05-15 09:50:54,871 - TwitterTool - INFO - Loaded analysis data for safwaankay
+2025-05-15 09:50:54,871 - TwitterTool - INFO - Successfully retrieved user information for default_user
+2025-05-15 09:50:54,871 - TwitterTool - INFO - Loaded user info for default_user
+2025-05-15 09:50:54,871 - TwitterTool - INFO - Sending prompt to LLM for post generation
+2025-05-15 09:50:54,926 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-05-15 09:50:54,926 - TwitterTool - ERROR - Critical error in generate_post: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+2025-05-15 09:50:55,040 - TwitterTool - INFO - Loaded tweets data for safwaankay
+2025-05-15 09:50:55,041 - TwitterTool - INFO - Generating post for @safwaankay on topic 'Technology' with length 'Short'
+2025-05-15 09:50:55,041 - TwitterTool - INFO - Loaded tweets data for safwaankay
+2025-05-15 09:50:55,041 - TwitterTool - INFO - Loaded analysis data for safwaankay
+2025-05-15 09:50:55,041 - TwitterTool - INFO - Successfully retrieved user information for default_user
+2025-05-15 09:50:55,041 - TwitterTool - INFO - Loaded user info for default_user
+2025-05-15 09:50:55,042 - TwitterTool - INFO - Sending prompt to LLM for post generation
+2025-05-15 09:50:55,099 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-05-15 09:50:55,099 - TwitterTool - ERROR - Critical error in generate_post: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+2025-05-15 09:50:55,161 - TwitterTool - INFO - Loaded tweets data for safwaankay
+2025-05-15 09:50:55,162 - TwitterTool - INFO - Generating post for @safwaankay on topic 'Technology' with length 'Short'
+2025-05-15 09:50:55,162 - TwitterTool - INFO - Loaded tweets data for safwaankay
+2025-05-15 09:50:55,162 - TwitterTool - INFO - Loaded analysis data for safwaankay
+2025-05-15 09:50:55,163 - TwitterTool - INFO - Successfully retrieved user information for default_user
+2025-05-15 09:50:55,163 - TwitterTool - INFO - Loaded user info for default_user
+2025-05-15 09:50:55,163 - TwitterTool - INFO - Sending prompt to LLM for post generation
+2025-05-15 09:50:55,218 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-05-15 09:50:55,219 - TwitterTool - ERROR - Critical error in generate_post: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+2025-05-15 09:50:55,299 - TwitterTool - INFO - Loaded tweets data for safwaankay
+2025-05-15 09:50:55,299 - TwitterTool - INFO - Generating post for @safwaankay on topic 'Technology' with length 'Short'
+2025-05-15 09:50:55,299 - TwitterTool - INFO - Loaded tweets data for safwaankay
+2025-05-15 09:50:55,299 - TwitterTool - INFO - Loaded analysis data for safwaankay
+2025-05-15 09:50:55,299 - TwitterTool - INFO - Successfully retrieved user information for default_user
+2025-05-15 09:50:55,299 - TwitterTool - INFO - Loaded user info for default_user
+2025-05-15 09:50:55,299 - TwitterTool - INFO - Sending prompt to LLM for post generation
+2025-05-15 09:50:55,357 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-05-15 09:50:55,358 - TwitterTool - ERROR - Critical error in generate_post: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+2025-05-15 09:50:55,436 - TwitterTool - INFO - Loaded tweets data for safwaankay
+2025-05-15 09:50:55,436 - TwitterTool - INFO - Generating post for @safwaankay on topic 'Technology' with length 'Short'
+2025-05-15 09:50:55,436 - TwitterTool - INFO - Loaded tweets data for safwaankay
+2025-05-15 09:50:55,436 - TwitterTool - INFO - Loaded analysis data for safwaankay
+2025-05-15 09:50:55,436 - TwitterTool - INFO - Successfully retrieved user information for default_user
+2025-05-15 09:50:55,436 - TwitterTool - INFO - Loaded user info for default_user
+2025-05-15 09:50:55,436 - TwitterTool - INFO - Sending prompt to LLM for post generation
+2025-05-15 09:50:55,488 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-05-15 09:50:55,488 - TwitterTool - ERROR - Critical error in generate_post: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+2025-05-15 09:50:55,566 - TwitterTool - INFO - Loaded tweets data for safwaankay
+2025-05-15 09:50:55,566 - TwitterTool - INFO - Generating post for @safwaankay on topic 'Technology' with length 'Short'
+2025-05-15 09:50:55,566 - TwitterTool - INFO - Loaded tweets data for safwaankay
+2025-05-15 09:50:55,566 - TwitterTool - INFO - Loaded analysis data for safwaankay
+2025-05-15 09:50:55,566 - TwitterTool - INFO - Successfully retrieved user information for default_user
+2025-05-15 09:50:55,566 - TwitterTool - INFO - Loaded user info for default_user
+2025-05-15 09:50:55,566 - TwitterTool - INFO - Sending prompt to LLM for post generation
+2025-05-15 09:50:55,649 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-05-15 09:50:55,650 - TwitterTool - ERROR - Critical error in generate_post: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+2025-05-15 09:50:55,679 - TwitterTool - INFO - Loaded tweets data for safwaankay
+2025-05-15 09:50:55,680 - TwitterTool - INFO - Generating post for @safwaankay on topic 'Technology' with length 'Short'
+2025-05-15 09:50:55,680 - TwitterTool - INFO - Loaded tweets data for safwaankay
+2025-05-15 09:50:55,680 - TwitterTool - INFO - Loaded analysis data for safwaankay
+2025-05-15 09:50:55,680 - TwitterTool - INFO - Successfully retrieved user information for default_user
+2025-05-15 09:50:55,680 - TwitterTool - INFO - Loaded user info for default_user
+2025-05-15 09:50:55,680 - TwitterTool - INFO - Sending prompt to LLM for post generation
+2025-05-15 09:50:55,753 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-05-15 09:50:55,753 - TwitterTool - ERROR - Critical error in generate_post: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+2025-05-15 09:50:55,813 - TwitterTool - INFO - Loaded tweets data for safwaankay
+2025-05-15 09:50:55,813 - TwitterTool - INFO - Generating post for @safwaankay on topic 'Technology' with length 'Short'
+2025-05-15 09:50:55,813 - TwitterTool - INFO - Loaded tweets data for safwaankay
+2025-05-15 09:50:55,813 - TwitterTool - INFO - Loaded analysis data for safwaankay
+2025-05-15 09:50:55,813 - TwitterTool - INFO - Successfully retrieved user information for default_user
+2025-05-15 09:50:55,813 - TwitterTool - INFO - Loaded user info for default_user
+2025-05-15 09:50:55,813 - TwitterTool - INFO - Sending prompt to LLM for post generation
+2025-05-15 09:50:55,864 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-05-15 09:50:55,864 - TwitterTool - ERROR - Critical error in generate_post: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+2025-05-15 09:50:55,924 - TwitterTool - INFO - Loaded tweets data for safwaankay
+2025-05-15 09:50:55,924 - TwitterTool - INFO - Generating post for @safwaankay on topic 'Technology' with length 'Short'
+2025-05-15 09:50:55,924 - TwitterTool - INFO - Loaded tweets data for safwaankay
+2025-05-15 09:50:55,924 - TwitterTool - INFO - Loaded analysis data for safwaankay
+2025-05-15 09:50:55,925 - TwitterTool - INFO - Successfully retrieved user information for default_user
+2025-05-15 09:50:55,925 - TwitterTool - INFO - Loaded user info for default_user
+2025-05-15 09:50:55,925 - TwitterTool - INFO - Sending prompt to LLM for post generation
+2025-05-15 09:50:55,978 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-05-15 09:50:55,979 - TwitterTool - ERROR - Critical error in generate_post: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+2025-05-15 09:50:56,041 - TwitterTool - INFO - Loaded tweets data for safwaankay
+2025-05-15 09:50:56,041 - TwitterTool - INFO - Generating post for @safwaankay on topic 'Technology' with length 'Short'
+2025-05-15 09:50:56,041 - TwitterTool - INFO - Loaded tweets data for safwaankay
+2025-05-15 09:50:56,042 - TwitterTool - INFO - Loaded analysis data for safwaankay
+2025-05-15 09:50:56,042 - TwitterTool - INFO - Successfully retrieved user information for default_user
+2025-05-15 09:50:56,042 - TwitterTool - INFO - Loaded user info for default_user
+2025-05-15 09:50:56,042 - TwitterTool - INFO - Sending prompt to LLM for post generation
+2025-05-15 09:50:56,091 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-05-15 09:50:56,091 - TwitterTool - ERROR - Critical error in generate_post: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+2025-05-15 09:50:56,553 - TwitterTool - INFO - Loaded tweets data for safwaankay
+2025-05-15 09:50:56,554 - TwitterTool - INFO - Generating post for @safwaankay on topic 'Technology' with length 'Short'
+2025-05-15 09:50:56,554 - TwitterTool - INFO - Loaded tweets data for safwaankay
+2025-05-15 09:50:56,554 - TwitterTool - INFO - Loaded analysis data for safwaankay
+2025-05-15 09:50:56,555 - TwitterTool - INFO - Successfully retrieved user information for default_user
+2025-05-15 09:50:56,555 - TwitterTool - INFO - Loaded user info for default_user
+2025-05-15 09:50:56,555 - TwitterTool - INFO - Sending prompt to LLM for post generation
+2025-05-15 09:50:56,609 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-05-15 09:50:56,610 - TwitterTool - ERROR - Critical error in generate_post: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+2025-05-15 09:50:56,691 - TwitterTool - INFO - Loaded tweets data for safwaankay
+2025-05-15 09:50:56,691 - TwitterTool - INFO - Generating post for @safwaankay on topic 'Technology' with length 'Short'
+2025-05-15 09:50:56,691 - TwitterTool - INFO - Loaded tweets data for safwaankay
+2025-05-15 09:50:56,691 - TwitterTool - INFO - Loaded analysis data for safwaankay
+2025-05-15 09:50:56,692 - TwitterTool - INFO - Successfully retrieved user information for default_user
+2025-05-15 09:50:56,692 - TwitterTool - INFO - Loaded user info for default_user
+2025-05-15 09:50:56,692 - TwitterTool - INFO - Sending prompt to LLM for post generation
+2025-05-15 09:50:56,739 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-05-15 09:50:56,739 - TwitterTool - ERROR - Critical error in generate_post: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+2025-05-15 09:50:56,823 - TwitterTool - INFO - Loaded tweets data for safwaankay
+2025-05-15 09:50:56,823 - TwitterTool - INFO - Generating post for @safwaankay on topic 'Technology' with length 'Short'
+2025-05-15 09:50:56,823 - TwitterTool - INFO - Loaded tweets data for safwaankay
+2025-05-15 09:50:56,824 - TwitterTool - INFO - Loaded analysis data for safwaankay
+2025-05-15 09:50:56,824 - TwitterTool - INFO - Successfully retrieved user information for default_user
+2025-05-15 09:50:56,824 - TwitterTool - INFO - Loaded user info for default_user
+2025-05-15 09:50:56,825 - TwitterTool - INFO - Sending prompt to LLM for post generation
+2025-05-15 09:50:56,877 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-05-15 09:50:56,877 - TwitterTool - ERROR - Critical error in generate_post: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+2025-05-15 09:50:56,969 - TwitterTool - INFO - Loaded tweets data for safwaankay
+2025-05-15 09:50:56,969 - TwitterTool - INFO - Generating post for @safwaankay on topic 'Technology' with length 'Short'
+2025-05-15 09:50:56,969 - TwitterTool - INFO - Loaded tweets data for safwaankay
+2025-05-15 09:50:56,969 - TwitterTool - INFO - Loaded analysis data for safwaankay
+2025-05-15 09:50:56,970 - TwitterTool - INFO - Successfully retrieved user information for default_user
+2025-05-15 09:50:56,970 - TwitterTool - INFO - Loaded user info for default_user
+2025-05-15 09:50:56,970 - TwitterTool - INFO - Sending prompt to LLM for post generation
+2025-05-15 09:50:57,019 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-05-15 09:50:57,019 - TwitterTool - ERROR - Critical error in generate_post: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+2025-05-15 09:53:03,954 - TwitterTool - INFO - TwitterTool initialized with data directory: data
+2025-05-15 09:53:04,115 - TwitterTool - WARNING - snscrape is installed but may have issues: Traceback (most recent call last):
+  File "/Users/sonalinayak/Tweet-post/venv/bin/snscrape", line 8, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/Users/sonalinayak/Tweet-post/venv/lib/python3.12/site-packages/snscrape/_cli.py", line 308, in main
+    args = parse_args()
+           ^^^^^^^^^^^^
+  File "/Users/sonalinayak/Tweet-post/venv/lib/python3.12/site-packages/snscrape/_cli.py", line 233, in parse_args
+    import snscrape.modules
+  File "/Users/sonalinayak/Tweet-post/venv/lib/python3.12/site-packages/snscrape/modules/__init__.py", line 17, in <module>
+    _import_modules()
+  File "/Users/sonalinayak/Tweet-post/venv/lib/python3.12/site-packages/snscrape/modules/__init__.py", line 13, in _import_modules
+    module = importer.find_module(moduleName).load_module(moduleName)
+             ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'FileFinder' object has no attribute 'find_module'
+
+2025-05-15 09:53:16,823 - TwitterTool - INFO - Loaded tweets data for safwaankay
+2025-05-15 09:53:16,824 - TwitterTool - INFO - Generating post for @safwaankay on topic 'Technology' with length 'Short'
+2025-05-15 09:53:16,824 - TwitterTool - INFO - Loaded tweets data for safwaankay
+2025-05-15 09:53:16,825 - TwitterTool - INFO - Loaded analysis data for safwaankay
+2025-05-15 09:53:16,826 - TwitterTool - INFO - Successfully retrieved user information for default_user
+2025-05-15 09:53:16,826 - TwitterTool - INFO - Loaded user info for default_user
+2025-05-15 09:53:16,827 - TwitterTool - INFO - Sending prompt to LLM for post generation
+2025-05-15 09:53:17,379 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-15 09:53:17,391 - TwitterTool - INFO - Successfully generated post for @safwaankay
+2025-05-15 09:53:33,174 - TwitterTool - INFO - Loaded tweets data for safwaankay
+2025-05-15 09:53:33,175 - TwitterTool - INFO - Generating post for @safwaankay on topic 'Technology' with length 'Long'
+2025-05-15 09:53:33,175 - TwitterTool - INFO - Loaded tweets data for safwaankay
+2025-05-15 09:53:33,175 - TwitterTool - INFO - Loaded analysis data for safwaankay
+2025-05-15 09:53:33,176 - TwitterTool - INFO - Successfully retrieved user information for default_user
+2025-05-15 09:53:33,176 - TwitterTool - INFO - Loaded user info for default_user
+2025-05-15 09:53:33,176 - TwitterTool - INFO - Sending prompt to LLM for post generation
+2025-05-15 09:53:33,823 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-15 09:53:33,824 - TwitterTool - INFO - Successfully generated post for @safwaankay
+2025-05-15 10:03:00,314 - TwitterTool - INFO - TwitterTool initialized with data directory: data
+2025-05-15 10:03:00,467 - TwitterTool - WARNING - snscrape is installed but may have issues: Traceback (most recent call last):
+  File "/Users/sonalinayak/Tweet-post/venv/bin/snscrape", line 8, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/Users/sonalinayak/Tweet-post/venv/lib/python3.12/site-packages/snscrape/_cli.py", line 308, in main
+    args = parse_args()
+           ^^^^^^^^^^^^
+  File "/Users/sonalinayak/Tweet-post/venv/lib/python3.12/site-packages/snscrape/_cli.py", line 233, in parse_args
+    import snscrape.modules
+  File "/Users/sonalinayak/Tweet-post/venv/lib/python3.12/site-packages/snscrape/modules/__init__.py", line 17, in <module>
+    _import_modules()
+  File "/Users/sonalinayak/Tweet-post/venv/lib/python3.12/site-packages/snscrape/modules/__init__.py", line 13, in _import_modules
+    module = importer.find_module(moduleName).load_module(moduleName)
+             ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'FileFinder' object has no attribute 'find_module'
+
+2025-05-15 10:04:05,915 - TwitterTool - INFO - TwitterTool initialized with data directory: data
+2025-05-15 10:04:06,078 - TwitterTool - WARNING - snscrape is installed but may have issues: Traceback (most recent call last):
+  File "/Users/sonalinayak/Tweet-post/venv/bin/snscrape", line 8, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/Users/sonalinayak/Tweet-post/venv/lib/python3.12/site-packages/snscrape/_cli.py", line 308, in main
+    args = parse_args()
+           ^^^^^^^^^^^^
+  File "/Users/sonalinayak/Tweet-post/venv/lib/python3.12/site-packages/snscrape/_cli.py", line 233, in parse_args
+    import snscrape.modules
+  File "/Users/sonalinayak/Tweet-post/venv/lib/python3.12/site-packages/snscrape/modules/__init__.py", line 17, in <module>
+    _import_modules()
+  File "/Users/sonalinayak/Tweet-post/venv/lib/python3.12/site-packages/snscrape/modules/__init__.py", line 13, in _import_modules
+    module = importer.find_module(moduleName).load_module(moduleName)
+             ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'FileFinder' object has no attribute 'find_module'
+
+2025-05-15 10:05:03,532 - TwitterTool - INFO - Loaded tweets data for safwaankay
+2025-05-15 10:05:03,534 - TwitterTool - INFO - Generating post for @safwaankay on topic 'Technology' with length 'Long'
+2025-05-15 10:05:03,535 - TwitterTool - INFO - Loaded tweets data for safwaankay
+2025-05-15 10:05:03,535 - TwitterTool - INFO - Loaded analysis data for safwaankay
+2025-05-15 10:05:03,536 - TwitterTool - INFO - Successfully retrieved user information for default_user
+2025-05-15 10:05:03,536 - TwitterTool - INFO - Loaded user info for default_user
+2025-05-15 10:05:03,536 - TwitterTool - INFO - Sending prompt to LLM for post generation
+2025-05-15 10:05:04,826 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-15 10:05:04,839 - TwitterTool - ERROR - Error parsing post generation response: expected string or bytes-like object, got 'list'
+2025-05-15 10:08:23,744 - TwitterTool - INFO - TwitterTool initialized with data directory: data
+2025-05-15 10:08:23,899 - TwitterTool - WARNING - snscrape is installed but may have issues: Traceback (most recent call last):
+  File "/Users/sonalinayak/Tweet-post/venv/bin/snscrape", line 8, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/Users/sonalinayak/Tweet-post/venv/lib/python3.12/site-packages/snscrape/_cli.py", line 308, in main
+    args = parse_args()
+           ^^^^^^^^^^^^
+  File "/Users/sonalinayak/Tweet-post/venv/lib/python3.12/site-packages/snscrape/_cli.py", line 233, in parse_args
+    import snscrape.modules
+  File "/Users/sonalinayak/Tweet-post/venv/lib/python3.12/site-packages/snscrape/modules/__init__.py", line 17, in <module>
+    _import_modules()
+  File "/Users/sonalinayak/Tweet-post/venv/lib/python3.12/site-packages/snscrape/modules/__init__.py", line 13, in _import_modules
+    module = importer.find_module(moduleName).load_module(moduleName)
+             ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'FileFinder' object has no attribute 'find_module'
+
+2025-05-15 10:08:45,961 - TwitterTool - INFO - Loaded tweets data for safwaankay
+2025-05-15 10:08:45,962 - TwitterTool - INFO - Generating post for @safwaankay on topic 'Technology' with length 'Short'
+2025-05-15 10:08:45,962 - TwitterTool - INFO - Loaded tweets data for safwaankay
+2025-05-15 10:08:45,963 - TwitterTool - INFO - Loaded analysis data for safwaankay
+2025-05-15 10:08:45,963 - TwitterTool - INFO - Successfully retrieved user information for default_user
+2025-05-15 10:08:45,963 - TwitterTool - INFO - Loaded user info for default_user
+2025-05-15 10:08:45,963 - TwitterTool - INFO - Sending prompt to LLM for post generation
+2025-05-15 10:08:46,554 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-15 10:08:46,578 - TwitterTool - INFO - Successfully generated post for @safwaankay
+2025-05-15 10:08:54,414 - TwitterTool - INFO - Loaded tweets data for safwaankay
+2025-05-15 10:08:54,414 - TwitterTool - INFO - Generating post for @safwaankay on topic 'Technology' with length 'Long'
+2025-05-15 10:08:54,414 - TwitterTool - INFO - Loaded tweets data for safwaankay
+2025-05-15 10:08:54,415 - TwitterTool - INFO - Loaded analysis data for safwaankay
+2025-05-15 10:08:54,415 - TwitterTool - INFO - Successfully retrieved user information for default_user
+2025-05-15 10:08:54,415 - TwitterTool - INFO - Loaded user info for default_user
+2025-05-15 10:08:54,416 - TwitterTool - INFO - Sending prompt to LLM for post generation
+2025-05-15 10:08:55,542 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-15 10:08:55,543 - TwitterTool - ERROR - JSON parsing error: Invalid control character at: line 3 column 169 (char 179)
+2025-05-15 10:08:55,544 - TwitterTool - INFO - Successfully generated post for @safwaankay
+2025-05-15 10:09:10,364 - TwitterTool - INFO - TwitterTool initialized with data directory: data
+2025-05-15 10:09:10,511 - TwitterTool - WARNING - snscrape is installed but may have issues: Traceback (most recent call last):
+  File "/Users/sonalinayak/Tweet-post/venv/bin/snscrape", line 8, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/Users/sonalinayak/Tweet-post/venv/lib/python3.12/site-packages/snscrape/_cli.py", line 308, in main
+    args = parse_args()
+           ^^^^^^^^^^^^
+  File "/Users/sonalinayak/Tweet-post/venv/lib/python3.12/site-packages/snscrape/_cli.py", line 233, in parse_args
+    import snscrape.modules
+  File "/Users/sonalinayak/Tweet-post/venv/lib/python3.12/site-packages/snscrape/modules/__init__.py", line 17, in <module>
+    _import_modules()
+  File "/Users/sonalinayak/Tweet-post/venv/lib/python3.12/site-packages/snscrape/modules/__init__.py", line 13, in _import_modules
+    module = importer.find_module(moduleName).load_module(moduleName)
+             ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'FileFinder' object has no attribute 'find_module'
+
+2025-05-15 10:11:11,117 - TwitterTool - INFO - Loaded tweets data for safwaankay
+2025-05-15 10:11:11,117 - TwitterTool - INFO - Generating post for @safwaankay on topic 'Technology' with length 'Long'
+2025-05-15 10:11:11,117 - TwitterTool - INFO - Loaded tweets data for safwaankay
+2025-05-15 10:11:11,118 - TwitterTool - INFO - Loaded analysis data for safwaankay
+2025-05-15 10:11:11,118 - TwitterTool - INFO - Successfully retrieved user information for default_user
+2025-05-15 10:11:11,118 - TwitterTool - INFO - Loaded user info for default_user
+2025-05-15 10:11:11,119 - TwitterTool - INFO - Sending prompt to LLM for post generation
+2025-05-15 10:11:12,373 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-15 10:11:12,385 - TwitterTool - ERROR - Error parsing post generation response: expected string or bytes-like object, got 'list'
+2025-05-15 10:11:30,740 - TwitterTool - INFO - Loaded tweets data for safwaankay
+2025-05-15 10:11:30,741 - TwitterTool - INFO - Generating post for @safwaankay on topic 'Technology' with length 'Long'
+2025-05-15 10:11:30,741 - TwitterTool - INFO - Loaded tweets data for safwaankay
+2025-05-15 10:11:30,742 - TwitterTool - INFO - Loaded analysis data for safwaankay
+2025-05-15 10:11:30,742 - TwitterTool - INFO - Successfully retrieved user information for default_user
+2025-05-15 10:11:30,743 - TwitterTool - INFO - Loaded user info for default_user
+2025-05-15 10:11:30,743 - TwitterTool - INFO - Sending prompt to LLM for post generation
+2025-05-15 10:11:32,239 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-15 10:11:32,242 - TwitterTool - ERROR - JSON parsing error: Expecting ',' delimiter: line 9 column 45 (char 1206)
+2025-05-15 10:11:32,242 - TwitterTool - INFO - Successfully generated post for @safwaankay
+2025-05-15 10:12:00,257 - TwitterTool - INFO - Loaded tweets data for safwaankay
+2025-05-15 10:12:00,258 - TwitterTool - INFO - Generating post for @safwaankay on topic 'Technology' with length 'Long'
+2025-05-15 10:12:00,258 - TwitterTool - INFO - Loaded tweets data for safwaankay
+2025-05-15 10:12:00,258 - TwitterTool - INFO - Loaded analysis data for safwaankay
+2025-05-15 10:12:00,258 - TwitterTool - INFO - Successfully retrieved user information for default_user
+2025-05-15 10:12:00,258 - TwitterTool - INFO - Loaded user info for default_user
+2025-05-15 10:12:00,259 - TwitterTool - INFO - Sending prompt to LLM for post generation
+2025-05-15 10:12:01,527 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-15 10:12:01,528 - TwitterTool - ERROR - Error parsing post generation response: expected string or bytes-like object, got 'list'
+2025-05-15 10:16:19,451 - TwitterTool - INFO - TwitterTool initialized with data directory: data
+2025-05-15 10:16:19,642 - TwitterTool - WARNING - snscrape is installed but may have issues: Traceback (most recent call last):
+  File "/Users/sonalinayak/Tweet-post/venv/bin/snscrape", line 8, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/Users/sonalinayak/Tweet-post/venv/lib/python3.12/site-packages/snscrape/_cli.py", line 308, in main
+    args = parse_args()
+           ^^^^^^^^^^^^
+  File "/Users/sonalinayak/Tweet-post/venv/lib/python3.12/site-packages/snscrape/_cli.py", line 233, in parse_args
+    import snscrape.modules
+  File "/Users/sonalinayak/Tweet-post/venv/lib/python3.12/site-packages/snscrape/modules/__init__.py", line 17, in <module>
+    _import_modules()
+  File "/Users/sonalinayak/Tweet-post/venv/lib/python3.12/site-packages/snscrape/modules/__init__.py", line 13, in _import_modules
+    module = importer.find_module(moduleName).load_module(moduleName)
+             ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'FileFinder' object has no attribute 'find_module'
+
+2025-05-15 10:16:25,820 - TwitterTool - INFO - TwitterTool initialized with data directory: data
+2025-05-15 10:16:25,974 - TwitterTool - WARNING - snscrape is installed but may have issues: Traceback (most recent call last):
+  File "/Users/sonalinayak/Tweet-post/venv/bin/snscrape", line 8, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/Users/sonalinayak/Tweet-post/venv/lib/python3.12/site-packages/snscrape/_cli.py", line 308, in main
+    args = parse_args()
+           ^^^^^^^^^^^^
+  File "/Users/sonalinayak/Tweet-post/venv/lib/python3.12/site-packages/snscrape/_cli.py", line 233, in parse_args
+    import snscrape.modules
+  File "/Users/sonalinayak/Tweet-post/venv/lib/python3.12/site-packages/snscrape/modules/__init__.py", line 17, in <module>
+    _import_modules()
+  File "/Users/sonalinayak/Tweet-post/venv/lib/python3.12/site-packages/snscrape/modules/__init__.py", line 13, in _import_modules
+    module = importer.find_module(moduleName).load_module(moduleName)
+             ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'FileFinder' object has no attribute 'find_module'
+
+2025-05-15 10:16:42,513 - TwitterTool - INFO - TwitterTool initialized with data directory: data
+2025-05-15 10:16:42,665 - TwitterTool - WARNING - snscrape is installed but may have issues: Traceback (most recent call last):
+  File "/Users/sonalinayak/Tweet-post/venv/bin/snscrape", line 8, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/Users/sonalinayak/Tweet-post/venv/lib/python3.12/site-packages/snscrape/_cli.py", line 308, in main
+    args = parse_args()
+           ^^^^^^^^^^^^
+  File "/Users/sonalinayak/Tweet-post/venv/lib/python3.12/site-packages/snscrape/_cli.py", line 233, in parse_args
+    import snscrape.modules
+  File "/Users/sonalinayak/Tweet-post/venv/lib/python3.12/site-packages/snscrape/modules/__init__.py", line 17, in <module>
+    _import_modules()
+  File "/Users/sonalinayak/Tweet-post/venv/lib/python3.12/site-packages/snscrape/modules/__init__.py", line 13, in _import_modules
+    module = importer.find_module(moduleName).load_module(moduleName)
+             ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'FileFinder' object has no attribute 'find_module'
+
+2025-05-15 10:31:47,679 - TwitterTool - INFO - Loaded tweets data for safwaankay
+2025-05-15 10:31:47,686 - TwitterTool - INFO - Generating post for @safwaankay on topic 'Technology' with length 'Short'
+2025-05-15 10:31:47,686 - TwitterTool - INFO - Loaded tweets data for safwaankay
+2025-05-15 10:31:47,687 - TwitterTool - INFO - Loaded analysis data for safwaankay
+2025-05-15 10:31:47,688 - TwitterTool - INFO - Successfully retrieved user information for default_user
+2025-05-15 10:31:47,688 - TwitterTool - INFO - Loaded user info for default_user
+2025-05-15 10:31:47,689 - TwitterTool - INFO - Sending prompt to LLM for post generation
+2025-05-15 10:31:48,300 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-15 10:31:48,331 - TwitterTool - INFO - Successfully generated post for @safwaankay
+2025-05-15 10:31:58,458 - TwitterTool - INFO - Loaded tweets data for safwaankay
+2025-05-15 10:31:58,459 - TwitterTool - INFO - Generating post for @safwaankay on topic 'Technology' with length 'Long'
+2025-05-15 10:31:58,459 - TwitterTool - INFO - Loaded tweets data for safwaankay
+2025-05-15 10:31:58,459 - TwitterTool - INFO - Loaded analysis data for safwaankay
+2025-05-15 10:31:58,460 - TwitterTool - INFO - Successfully retrieved user information for default_user
+2025-05-15 10:31:58,460 - TwitterTool - INFO - Loaded user info for default_user
+2025-05-15 10:31:58,460 - TwitterTool - INFO - Sending prompt to LLM for post generation
+2025-05-15 10:31:59,524 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-15 10:31:59,525 - TwitterTool - ERROR - Error parsing post generation response: expected string or bytes-like object, got 'list'
+2025-05-15 10:36:06,512 - TwitterTool - INFO - Starting profile scrape for mrsiipa
+2025-05-15 10:36:06,515 - TwitterTool - INFO - Starting snscrape CLI for @mrsiipa
+2025-05-15 10:36:06,601 - TwitterTool - ERROR - CLI command failed with error: /Users/sonalinayak/Tweet-post/venv/bin/python: No module named snscrape.__main__; 'snscrape' is a package and cannot be directly executed
+
+2025-05-15 10:36:06,601 - TwitterTool - INFO - Attempting to use snscrape Python API for @mrsiipa
+2025-05-15 10:36:06,605 - TwitterTool - ERROR - Error using snscrape Python API: 'FileFinder' object has no attribute 'find_module'
+2025-05-15 10:36:06,606 - TwitterTool - WARNING - No tweets found, creating example data
+2025-05-15 10:36:06,607 - TwitterTool - INFO - Creating example tweets for mrsiipa
+2025-05-15 10:36:06,607 - TwitterTool - INFO - Deduplicated 2 tweets to 2 unique tweets
+2025-05-15 10:36:06,610 - TwitterTool - INFO - Saved tweets data for mrsiipa
+2025-05-15 10:36:06,610 - TwitterTool - INFO - Analyzing 2 tweets for @mrsiipa
+2025-05-15 10:36:07,175 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-15 10:36:07,278 - TwitterTool - INFO - Saved analysis data for mrsiipa
+2025-05-15 10:36:07,278 - TwitterTool - INFO - Analysis completed successfully for @mrsiipa
+2025-05-15 10:36:07,279 - TwitterTool - INFO - Successfully scraped profile for @mrsiipa
+2025-05-15 10:42:43,202 - TwitterTool - INFO - TwitterTool initialized with data directory: data
+2025-05-15 10:42:43,364 - TwitterTool - WARNING - snscrape is installed but may have issues: Traceback (most recent call last):
+  File "/Users/sonalinayak/Tweet-post/venv/bin/snscrape", line 8, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/Users/sonalinayak/Tweet-post/venv/lib/python3.12/site-packages/snscrape/_cli.py", line 308, in main
+    args = parse_args()
+           ^^^^^^^^^^^^
+  File "/Users/sonalinayak/Tweet-post/venv/lib/python3.12/site-packages/snscrape/_cli.py", line 233, in parse_args
+    import snscrape.modules
+  File "/Users/sonalinayak/Tweet-post/venv/lib/python3.12/site-packages/snscrape/modules/__init__.py", line 17, in <module>
+    _import_modules()
+  File "/Users/sonalinayak/Tweet-post/venv/lib/python3.12/site-packages/snscrape/modules/__init__.py", line 13, in _import_modules
+    module = importer.find_module(moduleName).load_module(moduleName)
+             ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'FileFinder' object has no attribute 'find_module'
+
+2025-05-15 10:42:46,570 - TwitterTool - INFO - Starting profile scrape for mrsiipa
+2025-05-15 10:42:46,570 - TwitterTool - INFO - Starting snscrape CLI for @mrsiipa
+2025-05-15 10:42:46,601 - TwitterTool - ERROR - CLI command failed with error: /Users/sonalinayak/Tweet-post/venv/bin/python: No module named snscrape.__main__; 'snscrape' is a package and cannot be directly executed
+
+2025-05-15 10:42:46,602 - TwitterTool - INFO - Attempting to use snscrape Python API for @mrsiipa
+2025-05-15 10:42:46,604 - TwitterTool - ERROR - Error using snscrape Python API: 'FileFinder' object has no attribute 'find_module'
+2025-05-15 10:42:46,604 - TwitterTool - WARNING - No tweets found, creating example data
+2025-05-15 10:42:46,604 - TwitterTool - INFO - Creating example tweets for mrsiipa
+2025-05-15 10:42:46,604 - TwitterTool - INFO - Deduplicated 2 tweets to 2 unique tweets
+2025-05-15 10:42:46,606 - TwitterTool - INFO - Saved tweets data for mrsiipa
+2025-05-15 10:42:46,606 - TwitterTool - INFO - Analyzing 2 tweets for @mrsiipa
+2025-05-15 10:42:47,291 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-15 10:42:47,306 - TwitterTool - INFO - Saved analysis data for mrsiipa
+2025-05-15 10:42:47,306 - TwitterTool - INFO - Analysis completed successfully for @mrsiipa
+2025-05-15 10:42:47,306 - TwitterTool - INFO - Successfully scraped profile for @mrsiipa
+2025-05-15 10:45:58,470 - TwitterTool - INFO - TwitterTool initialized with data directory: data
+2025-05-15 10:45:58,635 - TwitterTool - WARNING - snscrape is installed but may have issues: Traceback (most recent call last):
+  File "/Users/sonalinayak/Tweet-post/venv/bin/snscrape", line 8, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/Users/sonalinayak/Tweet-post/venv/lib/python3.12/site-packages/snscrape/_cli.py", line 308, in main
+    args = parse_args()
+           ^^^^^^^^^^^^
+  File "/Users/sonalinayak/Tweet-post/venv/lib/python3.12/site-packages/snscrape/_cli.py", line 233, in parse_args
+    import snscrape.modules
+  File "/Users/sonalinayak/Tweet-post/venv/lib/python3.12/site-packages/snscrape/modules/__init__.py", line 17, in <module>
+    _import_modules()
+  File "/Users/sonalinayak/Tweet-post/venv/lib/python3.12/site-packages/snscrape/modules/__init__.py", line 13, in _import_modules
+    module = importer.find_module(moduleName).load_module(moduleName)
+             ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'FileFinder' object has no attribute 'find_module'
+
+2025-05-15 10:46:04,347 - TwitterTool - INFO - Starting profile scrape for mrsiipa
+2025-05-15 10:46:04,348 - TwitterTool - INFO - Starting snscrape CLI for @mrsiipa
+2025-05-15 10:46:04,378 - TwitterTool - ERROR - CLI command failed with error: /Users/sonalinayak/Tweet-post/venv/bin/python: No module named snscrape.__main__; 'snscrape' is a package and cannot be directly executed
+
+2025-05-15 10:46:04,378 - TwitterTool - INFO - Attempting to use snscrape Python API for @mrsiipa
+2025-05-15 10:46:04,380 - TwitterTool - ERROR - Error using snscrape Python API: 'FileFinder' object has no attribute 'find_module'
+2025-05-15 10:46:09,849 - TwitterTool - WARNING - No tweets found, creating example data
+2025-05-15 10:46:09,849 - TwitterTool - ERROR - Error scraping profile: 'TwitterTool' object has no attribute '_create_example_tweets'
+2025-05-15 10:49:42,074 - TwitterTool - INFO - TwitterTool initialized with data directory: data
+2025-05-15 10:49:42,234 - TwitterTool - WARNING - snscrape is installed but may have issues: Traceback (most recent call last):
+  File "/Users/sonalinayak/Tweet-post/venv/bin/snscrape", line 8, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/Users/sonalinayak/Tweet-post/venv/lib/python3.12/site-packages/snscrape/_cli.py", line 308, in main
+    args = parse_args()
+           ^^^^^^^^^^^^
+  File "/Users/sonalinayak/Tweet-post/venv/lib/python3.12/site-packages/snscrape/_cli.py", line 233, in parse_args
+    import snscrape.modules
+  File "/Users/sonalinayak/Tweet-post/venv/lib/python3.12/site-packages/snscrape/modules/__init__.py", line 17, in <module>
+    _import_modules()
+  File "/Users/sonalinayak/Tweet-post/venv/lib/python3.12/site-packages/snscrape/modules/__init__.py", line 13, in _import_modules
+    module = importer.find_module(moduleName).load_module(moduleName)
+             ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'FileFinder' object has no attribute 'find_module'
+
+2025-05-15 10:49:45,856 - TwitterTool - INFO - Starting profile scrape for mrsiipa
+2025-05-15 10:49:45,857 - TwitterTool - INFO - Starting snscrape CLI for @mrsiipa
+2025-05-15 10:49:45,896 - TwitterTool - ERROR - CLI command failed with error: /Users/sonalinayak/Tweet-post/venv/bin/python: No module named snscrape.__main__; 'snscrape' is a package and cannot be directly executed
+
+2025-05-15 10:49:45,898 - TwitterTool - INFO - Attempting to use snscrape Python API for @mrsiipa
+2025-05-15 10:49:45,900 - TwitterTool - ERROR - Error using snscrape Python API: 'FileFinder' object has no attribute 'find_module'
+2025-05-15 10:49:47,646 - TwitterTool - INFO - Deduplicated 4 tweets to 4 unique tweets
+2025-05-15 10:49:47,648 - TwitterTool - INFO - Saved tweets data for mrsiipa
+2025-05-15 10:49:47,648 - TwitterTool - INFO - Analyzing 4 tweets for @mrsiipa
+2025-05-15 10:49:48,234 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-15 10:49:48,250 - TwitterTool - INFO - Saved analysis data for mrsiipa
+2025-05-15 10:49:48,251 - TwitterTool - INFO - Analysis completed successfully for @mrsiipa
+2025-05-15 10:49:48,251 - TwitterTool - INFO - Successfully scraped profile for @mrsiipa
+2025-05-15 10:56:41,076 - TwitterTool - INFO - TwitterTool initialized with data directory: data
+2025-05-15 10:56:41,259 - TwitterTool - WARNING - snscrape is installed but may have issues: Traceback (most recent call last):
+  File "/Users/sonalinayak/Tweet-post/venv/bin/snscrape", line 8, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/Users/sonalinayak/Tweet-post/venv/lib/python3.12/site-packages/snscrape/_cli.py", line 308, in main
+    args = parse_args()
+           ^^^^^^^^^^^^
+  File "/Users/sonalinayak/Tweet-post/venv/lib/python3.12/site-packages/snscrape/_cli.py", line 233, in parse_args
+    import snscrape.modules
+  File "/Users/sonalinayak/Tweet-post/venv/lib/python3.12/site-packages/snscrape/modules/__init__.py", line 17, in <module>
+    _import_modules()
+  File "/Users/sonalinayak/Tweet-post/venv/lib/python3.12/site-packages/snscrape/modules/__init__.py", line 13, in _import_modules
+    module = importer.find_module(moduleName).load_module(moduleName)
+             ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'FileFinder' object has no attribute 'find_module'
+
+2025-05-15 10:57:04,754 - TwitterTool - INFO - TwitterTool initialized with data directory: data
+2025-05-15 10:57:04,928 - TwitterTool - WARNING - snscrape is installed but may have issues: Traceback (most recent call last):
+  File "/Users/sonalinayak/Tweet-post/venv/bin/snscrape", line 8, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/Users/sonalinayak/Tweet-post/venv/lib/python3.12/site-packages/snscrape/_cli.py", line 308, in main
+    args = parse_args()
+           ^^^^^^^^^^^^
+  File "/Users/sonalinayak/Tweet-post/venv/lib/python3.12/site-packages/snscrape/_cli.py", line 233, in parse_args
+    import snscrape.modules
+  File "/Users/sonalinayak/Tweet-post/venv/lib/python3.12/site-packages/snscrape/modules/__init__.py", line 17, in <module>
+    _import_modules()
+  File "/Users/sonalinayak/Tweet-post/venv/lib/python3.12/site-packages/snscrape/modules/__init__.py", line 13, in _import_modules
+    module = importer.find_module(moduleName).load_module(moduleName)
+             ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'FileFinder' object has no attribute 'find_module'
+
+2025-05-15 10:57:06,850 - TwitterTool - INFO - Starting profile scrape for mrsiipa
+2025-05-15 10:57:06,852 - TwitterTool - INFO - Starting snscrape CLI for @mrsiipa
+2025-05-15 10:57:07,556 - TwitterTool - INFO - Attempting to use snscrape Python API for @mrsiipa
+2025-05-15 10:57:07,558 - TwitterTool - ERROR - Error using snscrape Python API: 'FileFinder' object has no attribute 'find_module'
+2025-05-15 10:57:11,428 - TwitterTool - WARNING - No real tweets found, creating example data
+2025-05-15 10:57:11,428 - TwitterTool - INFO - Creating example tweets for mrsiipa
+2025-05-15 10:57:11,429 - TwitterTool - INFO - Deduplicated 5 tweets to 5 unique tweets
+2025-05-15 10:57:11,431 - TwitterTool - INFO - Saved tweets data for mrsiipa
+2025-05-15 10:57:11,431 - TwitterTool - INFO - Analyzing 5 tweets for @mrsiipa
+2025-05-15 10:57:12,245 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-15 10:57:12,268 - TwitterTool - INFO - Saved analysis data for mrsiipa
+2025-05-15 10:57:12,268 - TwitterTool - INFO - Analysis completed successfully for @mrsiipa
+2025-05-15 10:57:12,269 - TwitterTool - INFO - Successfully scraped profile for @mrsiipa
+2025-05-15 11:02:34,814 - TwitterTool - INFO - TwitterTool initialized with data directory: data
+2025-05-15 11:02:35,004 - TwitterTool - WARNING - snscrape is installed but may have issues: Traceback (most recent call last):
+  File "/Users/sonalinayak/Tweet-post/venv/bin/snscrape", line 8, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/Users/sonalinayak/Tweet-post/venv/lib/python3.12/site-packages/snscrape/_cli.py", line 308, in main
+    args = parse_args()
+           ^^^^^^^^^^^^
+  File "/Users/sonalinayak/Tweet-post/venv/lib/python3.12/site-packages/snscrape/_cli.py", line 233, in parse_args
+    import snscrape.modules
+  File "/Users/sonalinayak/Tweet-post/venv/lib/python3.12/site-packages/snscrape/modules/__init__.py", line 17, in <module>
+    _import_modules()
+  File "/Users/sonalinayak/Tweet-post/venv/lib/python3.12/site-packages/snscrape/modules/__init__.py", line 13, in _import_modules
+    module = importer.find_module(moduleName).load_module(moduleName)
+             ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'FileFinder' object has no attribute 'find_module'
+
+2025-05-15 11:02:45,519 - TwitterTool - INFO - TwitterTool initialized with data directory: data
+2025-05-15 11:02:45,681 - TwitterTool - WARNING - snscrape is installed but may have issues: Traceback (most recent call last):
+  File "/Users/sonalinayak/Tweet-post/venv/bin/snscrape", line 8, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/Users/sonalinayak/Tweet-post/venv/lib/python3.12/site-packages/snscrape/_cli.py", line 308, in main
+    args = parse_args()
+           ^^^^^^^^^^^^
+  File "/Users/sonalinayak/Tweet-post/venv/lib/python3.12/site-packages/snscrape/_cli.py", line 233, in parse_args
+    import snscrape.modules
+  File "/Users/sonalinayak/Tweet-post/venv/lib/python3.12/site-packages/snscrape/modules/__init__.py", line 17, in <module>
+    _import_modules()
+  File "/Users/sonalinayak/Tweet-post/venv/lib/python3.12/site-packages/snscrape/modules/__init__.py", line 13, in _import_modules
+    module = importer.find_module(moduleName).load_module(moduleName)
+             ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'FileFinder' object has no attribute 'find_module'
+
+2025-05-15 11:03:04,927 - TwitterTool - INFO - Starting profile scrape for mrsiipa
+2025-05-15 11:03:07,768 - TwitterTool - WARNING - User @mrsiipa not found on any Nitter instance
+2025-05-15 11:03:07,768 - TwitterTool - INFO - Creating example tweets for mrsiipa
+2025-05-15 11:03:07,770 - TwitterTool - INFO - Saved tweets data for mrsiipa
+2025-05-15 11:03:07,770 - TwitterTool - INFO - Analyzing 5 tweets for @mrsiipa
+2025-05-15 11:03:08,558 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-15 11:03:08,574 - TwitterTool - ERROR - JSON parsing error: Expecting property name enclosed in double quotes: line 12 column 3 (char 320)
+2025-05-15 11:03:08,575 - TwitterTool - INFO - Saved analysis data for mrsiipa
+2025-05-15 11:03:08,575 - TwitterTool - INFO - Analysis completed successfully for @mrsiipa
+2025-05-15 11:18:43,917 - TwitterTool - INFO - TwitterTool initialized with data directory: data
+2025-05-15 11:19:03,504 - TwitterTool - INFO - Starting profile scrape for mrsiipa
+2025-05-15 11:19:03,516 - TwitterTool - ERROR - Error in Playwright scraping: Cannot run the event loop while another loop is running
+2025-05-15 11:19:03,526 - TwitterTool - WARNING - No tweets found, creating example data
+2025-05-15 11:19:03,526 - TwitterTool - INFO - Creating example tweets for mrsiipa
+2025-05-15 11:19:03,527 - TwitterTool - INFO - Deduplicated 5 tweets to 5 unique tweets
+2025-05-15 11:19:03,528 - TwitterTool - INFO - Saved tweets data for mrsiipa
+2025-05-15 11:19:03,529 - TwitterTool - INFO - Analyzing 5 tweets for @mrsiipa
+2025-05-15 11:19:04,128 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-15 11:19:04,136 - TwitterTool - INFO - Saved analysis data for mrsiipa
+2025-05-15 11:19:04,136 - TwitterTool - INFO - Analysis completed successfully for @mrsiipa
+2025-05-15 11:19:04,136 - TwitterTool - INFO - Successfully scraped profile for @mrsiipa
+2025-05-15 11:22:15,896 - TwitterTool - INFO - TwitterTool initialized with data directory: data
+2025-05-15 11:23:20,185 - TwitterTool - INFO - TwitterTool initialized with data directory: data
+2025-05-15 11:23:27,237 - TwitterTool - INFO - Starting profile scrape for mrsiipa
+2025-05-15 11:23:27,244 - TwitterTool - ERROR - Error in Playwright scraping: It looks like you are using Playwright Sync API inside the asyncio loop.
+Please use the Async API instead.
+2025-05-15 11:23:27,245 - TwitterTool - WARNING - No tweets found, creating example data
+2025-05-15 11:23:27,245 - TwitterTool - INFO - Creating example tweets for mrsiipa
+2025-05-15 11:23:27,249 - TwitterTool - INFO - Deduplicated 5 tweets to 5 unique tweets
+2025-05-15 11:23:27,253 - TwitterTool - INFO - Saved tweets data for mrsiipa
+2025-05-15 11:23:27,254 - TwitterTool - INFO - Analyzing 5 tweets for @mrsiipa
+2025-05-15 11:23:27,834 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-15 11:23:27,842 - TwitterTool - ERROR - JSON parsing error: Extra data: line 1 column 69 (char 68)
+2025-05-15 11:23:27,843 - TwitterTool - INFO - Saved analysis data for mrsiipa
+2025-05-15 11:23:27,843 - TwitterTool - INFO - Analysis completed successfully for @mrsiipa
+2025-05-15 11:23:27,843 - TwitterTool - INFO - Successfully scraped profile for @mrsiipa
+2025-05-15 11:28:59,594 - TwitterTool - INFO - TwitterTool initialized with data directory: data
+2025-05-15 11:29:00,491 - TwitterTool - INFO - Starting profile scrape for mrsiipa
+2025-05-15 11:29:00,498 - TwitterTool - INFO - Starting Playwright scrape for @mrsiipa
+2025-05-15 11:29:00,501 - TwitterTool - ERROR - Error scraping profile: It looks like you are using Playwright Sync API inside the asyncio loop.
+Please use the Async API instead.
+2025-05-15 11:33:19,833 - TwitterTool - INFO - TwitterTool initialized with data directory: data
+2025-05-15 11:33:22,325 - TwitterTool - INFO - Starting profile scrape for mrsiipa
+2025-05-15 11:33:22,327 - TwitterTool - ERROR - Error scraping profile: asyncio.run() cannot be called from a running event loop
+2025-05-15 11:33:25,489 - TwitterTool - INFO - Starting profile scrape for mrsiipa
+2025-05-15 11:33:25,489 - TwitterTool - ERROR - Error scraping profile: asyncio.run() cannot be called from a running event loop
+2025-05-15 11:35:36,061 - TwitterTool - INFO - TwitterTool initialized with data directory: data
+2025-05-15 11:36:31,527 - TwitterTool - INFO - TwitterTool initialized with data directory: data
+2025-05-15 11:37:32,353 - TwitterTool - INFO - Starting profile scrape for mrsiipa
+2025-05-15 11:37:32,360 - TwitterTool - INFO - Starting Playwright async scrape for @mrsiipa
+2025-05-15 11:37:34,326 - TwitterTool - ERROR - Error scraping profile: BrowserType.launch: Executable doesn't exist at /Users/sonalinayak/Library/Caches/ms-playwright/chromium-1112/chrome-mac/Chromium.app/Contents/MacOS/Chromium
+╔════════════════════════════════════════════════════════════╗
+║ Looks like Playwright was just installed or updated.       ║
+║ Please run the following command to download new browsers: ║
+║                                                            ║
+║     playwright install                                     ║
+║                                                            ║
+║ <3 Playwright Team                                         ║
+╚════════════════════════════════════════════════════════════╝
+2025-05-15 11:38:15,572 - TwitterTool - INFO - TwitterTool initialized with data directory: data
+2025-05-15 11:38:18,991 - TwitterTool - INFO - TwitterTool initialized with data directory: data
+2025-05-15 11:38:20,739 - TwitterTool - INFO - TwitterTool initialized with data directory: data
+2025-05-15 11:38:29,739 - TwitterTool - INFO - Starting profile scrape for mrsiipa
+2025-05-15 11:38:29,740 - TwitterTool - INFO - Starting Playwright async scrape for @mrsiipa
+2025-05-15 11:38:30,290 - TwitterTool - ERROR - Browser executable missing. Please run 'playwright install'
+2025-05-15 11:38:30,294 - TwitterTool - ERROR - Error scraping profile: Browser executable missing. Please run 'playwright install'
+2025-05-15 11:39:34,990 - TwitterTool - INFO - TwitterTool initialized with data directory: data
+2025-05-15 11:39:39,696 - TwitterTool - INFO - Starting profile scrape for mrsiipa
+2025-05-15 11:39:39,699 - TwitterTool - INFO - Starting Playwright async scrape for @mrsiipa
+2025-05-15 11:40:04,022 - TwitterTool - WARNING - No tweets found for @mrsiipa
+2025-05-15 11:40:04,215 - TwitterTool - WARNING - No tweets found for @mrsiipa
+2025-05-15 11:49:43,610 - TwitterTool - INFO - TwitterTool initialized with data directory: data
+2025-05-15 11:49:48,650 - TwitterTool - INFO - Starting profile scrape for mrsiipa
+2025-05-15 11:49:48,652 - TwitterTool - INFO - Starting Playwright async scrape for @mrsiipa
+2025-05-15 11:50:08,776 - TwitterTool - WARNING - No tweets found for @mrsiipa on Nitter (primary)
+2025-05-15 11:50:11,773 - TwitterTool - ERROR - Error during scraping from Nitter (fallback): Page.query_selector: Execution context was destroyed, most likely because of a navigation
+2025-05-15 11:50:29,982 - TwitterTool - WARNING - No tweets found for @mrsiipa on X.com (fallback)
+2025-05-15 11:50:30,066 - TwitterTool - WARNING - No tweets found for @mrsiipa
+2025-05-15 12:01:11,808 - TwitterTool - INFO - TwitterTool initialized with data directory: data
+2025-05-15 12:01:22,151 - TwitterTool - INFO - TwitterTool initialized with data directory: data
+2025-05-15 12:02:07,356 - TwitterTool - INFO - TwitterTool initialized with data directory: data
+2025-05-15 12:04:43,028 - TwitterTool - INFO - TwitterTool initialized with data directory: data
+2025-05-15 12:05:15,534 - TwitterTool - INFO - Starting profile scrape for mrsiipa
+2025-05-15 12:05:15,549 - TwitterTool - INFO - Starting Playwright async scrape for @mrsiipa
+2025-05-15 12:05:43,317 - TwitterTool - INFO - Deduplicated 6 tweets to 6 unique tweets
+2025-05-15 12:05:43,319 - TwitterTool - INFO - Saved tweets data for mrsiipa
+2025-05-15 12:05:43,319 - TwitterTool - INFO - Analyzing 6 tweets for @mrsiipa
+2025-05-15 12:05:44,289 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-15 12:05:44,362 - TwitterTool - INFO - Saved analysis data for mrsiipa
+2025-05-15 12:05:44,362 - TwitterTool - INFO - Analysis completed successfully for @mrsiipa
+2025-05-15 12:05:44,362 - TwitterTool - INFO - Successfully scraped profile for @mrsiipa
+2025-05-15 12:16:32,889 - TwitterTool - INFO - TwitterTool initialized with data directory: data
+2025-05-15 12:16:34,035 - TwitterTool - INFO - Starting profile scrape for mrsiipa
+2025-05-15 12:16:34,036 - TwitterTool - INFO - Starting Playwright async scrape for @mrsiipa
+2025-05-15 12:17:53,303 - TwitterTool - WARNING - No tweets found for @mrsiipa on Nitter (primary)
+2025-05-15 12:18:34,210 - TwitterTool - INFO - Deduplicated 20 tweets to 20 unique tweets
+2025-05-15 12:18:34,211 - TwitterTool - INFO - Saved tweets data for mrsiipa
+2025-05-15 12:18:34,212 - TwitterTool - INFO - Analyzing 20 tweets for @mrsiipa
+2025-05-15 12:18:34,869 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-15 12:18:34,886 - TwitterTool - INFO - Saved analysis data for mrsiipa
+2025-05-15 12:18:34,886 - TwitterTool - INFO - Analysis completed successfully for @mrsiipa
+2025-05-15 12:18:34,886 - TwitterTool - INFO - Successfully scraped profile for @mrsiipa
+2025-05-15 12:19:50,378 - TwitterTool - INFO - Loaded tweets data for mrsiipa
+2025-05-15 12:19:50,380 - TwitterTool - INFO - Generating post for @mrsiipa on topic 'Technology' with length 'Long'
+2025-05-15 12:19:50,380 - TwitterTool - INFO - Loaded tweets data for mrsiipa
+2025-05-15 12:19:50,380 - TwitterTool - INFO - Loaded analysis data for mrsiipa
+2025-05-15 12:19:50,381 - TwitterTool - INFO - Successfully retrieved user information for default_user
+2025-05-15 12:19:50,381 - TwitterTool - INFO - Loaded user info for default_user
+2025-05-15 12:19:50,382 - TwitterTool - INFO - Sending prompt to LLM for post generation
+2025-05-15 12:19:51,613 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-15 12:19:51,625 - TwitterTool - INFO - Successfully generated post for @mrsiipa
+2025-05-15 12:20:11,011 - TwitterTool - INFO - Loaded tweets data for mrsiipa
+2025-05-15 12:20:11,012 - TwitterTool - INFO - Generating post for @mrsiipa on topic 'Technology' with length 'Long'
+2025-05-15 12:20:11,012 - TwitterTool - INFO - Loaded tweets data for mrsiipa
+2025-05-15 12:20:11,013 - TwitterTool - INFO - Loaded analysis data for mrsiipa
+2025-05-15 12:20:11,014 - TwitterTool - INFO - Successfully retrieved user information for default_user
+2025-05-15 12:20:11,015 - TwitterTool - INFO - Loaded user info for default_user
+2025-05-15 12:20:11,015 - TwitterTool - INFO - Sending prompt to LLM for post generation
+2025-05-15 12:20:12,266 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-15 12:20:12,270 - TwitterTool - INFO - Successfully generated post for @mrsiipa
+2025-05-15 12:23:37,943 - TwitterTool - INFO - TwitterTool initialized with data directory: data
+2025-05-15 12:24:07,259 - TwitterTool - INFO - Starting profile scrape for iTanayVaswani
+2025-05-15 12:24:07,261 - TwitterTool - INFO - Starting Playwright async scrape for @iTanayVaswani
+2025-05-15 12:25:24,473 - TwitterTool - WARNING - No tweets found for @iTanayVaswani on Nitter (primary)
+2025-05-15 12:26:06,389 - TwitterTool - INFO - Deduplicated 20 tweets to 20 unique tweets
+2025-05-15 12:26:06,391 - TwitterTool - INFO - Saved tweets data for iTanayVaswani
+2025-05-15 12:26:06,392 - TwitterTool - INFO - Analyzing 20 tweets for @iTanayVaswani
+2025-05-15 12:26:07,214 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-15 12:26:07,228 - TwitterTool - INFO - Saved analysis data for iTanayVaswani
+2025-05-15 12:26:07,228 - TwitterTool - INFO - Analysis completed successfully for @iTanayVaswani
+2025-05-15 12:26:07,228 - TwitterTool - INFO - Successfully scraped profile for @iTanayVaswani
+2025-05-15 12:27:16,724 - TwitterTool - INFO - Loaded tweets data for iTanayVaswani
+2025-05-15 12:27:16,726 - TwitterTool - INFO - Generating post for @iTanayVaswani on topic 'Technology' with length 'Long'
+2025-05-15 12:27:16,727 - TwitterTool - INFO - Loaded tweets data for iTanayVaswani
+2025-05-15 12:27:16,727 - TwitterTool - INFO - Loaded analysis data for iTanayVaswani
+2025-05-15 12:27:16,727 - TwitterTool - INFO - Successfully retrieved user information for default_user
+2025-05-15 12:27:16,727 - TwitterTool - INFO - Loaded user info for default_user
+2025-05-15 12:27:16,948 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-15 12:27:16,962 - TwitterTool - INFO - Detected user tone for @iTanayVaswani: conversational
+2025-05-15 12:27:17,240 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-15 12:27:17,242 - TwitterTool - WARNING - Failed to parse trending hashtags: Expecting value: line 1 column 1 (char 0)
+2025-05-15 12:27:17,243 - TwitterTool - INFO - Sending prompt to LLM for post generation
+2025-05-15 12:27:18,359 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-15 12:27:18,361 - TwitterTool - ERROR - Error parsing post generation response: name 'length' is not defined
+2025-05-15 12:27:18,361 - TwitterTool - ERROR - Critical error in generate_post: name 'length' is not defined
+2025-05-15 12:32:28,047 - TwitterTool - INFO - TwitterTool initialized with data directory: data
+2025-05-15 12:32:33,025 - TwitterTool - INFO - Loaded tweets data for iTanayVaswani
+2025-05-15 12:32:33,026 - TwitterTool - INFO - Generating post for @iTanayVaswani on topic 'Technology' with length 'Long'
+2025-05-15 12:32:33,027 - TwitterTool - INFO - Loaded tweets data for iTanayVaswani
+2025-05-15 12:32:33,028 - TwitterTool - INFO - Loaded analysis data for iTanayVaswani
+2025-05-15 12:32:33,028 - TwitterTool - INFO - Successfully retrieved user information for default_user
+2025-05-15 12:32:33,028 - TwitterTool - INFO - Loaded user info for default_user
+2025-05-15 12:32:33,260 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-15 12:32:33,264 - TwitterTool - INFO - Detected user tone for @iTanayVaswani: conversational
+2025-05-15 12:32:33,548 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-15 12:32:33,551 - TwitterTool - WARNING - Failed to parse trending hashtags: Expecting value: line 1 column 1 (char 0)
+2025-05-15 12:32:33,551 - TwitterTool - INFO - Sending prompt to LLM for post generation
+2025-05-15 12:32:34,609 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-15 12:32:34,614 - TwitterTool - ERROR - JSON parsing error: Expecting ',' delimiter: line 7 column 5 (char 681)
+2025-05-15 12:32:34,615 - TwitterTool - INFO - Successfully generated post for @iTanayVaswani
+2025-05-15 12:32:39,607 - TwitterTool - INFO - Loaded tweets data for iTanayVaswani
+2025-05-15 12:32:39,609 - TwitterTool - INFO - Generating post for @iTanayVaswani on topic 'Technology' with length 'Long'
+2025-05-15 12:32:39,609 - TwitterTool - INFO - Loaded tweets data for iTanayVaswani
+2025-05-15 12:32:39,610 - TwitterTool - INFO - Loaded analysis data for iTanayVaswani
+2025-05-15 12:32:39,611 - TwitterTool - INFO - Successfully retrieved user information for default_user
+2025-05-15 12:32:39,611 - TwitterTool - INFO - Loaded user info for default_user
+2025-05-15 12:32:39,819 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-15 12:32:39,823 - TwitterTool - INFO - Detected user tone for @iTanayVaswani: conversational
+2025-05-15 12:32:40,098 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-15 12:32:40,100 - TwitterTool - WARNING - Failed to parse trending hashtags: Expecting value: line 1 column 1 (char 0)
+2025-05-15 12:32:40,100 - TwitterTool - INFO - Sending prompt to LLM for post generation
+2025-05-15 12:32:41,178 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-15 12:32:41,180 - TwitterTool - ERROR - JSON parsing error: Expecting ',' delimiter: line 8 column 16 (char 835)
+2025-05-15 12:32:41,181 - TwitterTool - INFO - Successfully generated post for @iTanayVaswani
+2025-05-15 12:32:53,722 - TwitterTool - INFO - Loaded tweets data for iTanayVaswani
+2025-05-15 12:32:53,724 - TwitterTool - INFO - Generating post for @iTanayVaswani on topic 'Technology' with length 'Short'
+2025-05-15 12:32:53,724 - TwitterTool - INFO - Loaded tweets data for iTanayVaswani
+2025-05-15 12:32:53,725 - TwitterTool - INFO - Loaded analysis data for iTanayVaswani
+2025-05-15 12:32:53,725 - TwitterTool - INFO - Successfully retrieved user information for default_user
+2025-05-15 12:32:53,725 - TwitterTool - INFO - Loaded user info for default_user
+2025-05-15 12:32:53,919 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-15 12:32:53,927 - TwitterTool - INFO - Detected user tone for @iTanayVaswani: conversational
+2025-05-15 12:32:54,207 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-15 12:32:54,209 - TwitterTool - WARNING - Failed to parse trending hashtags: Expecting value: line 1 column 1 (char 0)
+2025-05-15 12:32:54,209 - TwitterTool - INFO - Sending prompt to LLM for post generation
+2025-05-15 12:32:54,578 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-15 12:32:54,582 - TwitterTool - INFO - Successfully generated post for @iTanayVaswani
+2025-05-15 12:33:01,460 - TwitterTool - INFO - Loaded tweets data for iTanayVaswani
+2025-05-15 12:33:01,462 - TwitterTool - INFO - Generating post for @iTanayVaswani on topic 'Technology' with length 'Long'
+2025-05-15 12:33:01,469 - TwitterTool - INFO - Loaded tweets data for iTanayVaswani
+2025-05-15 12:33:01,470 - TwitterTool - INFO - Loaded analysis data for iTanayVaswani
+2025-05-15 12:33:01,471 - TwitterTool - INFO - Successfully retrieved user information for default_user
+2025-05-15 12:33:01,471 - TwitterTool - INFO - Loaded user info for default_user
+2025-05-15 12:33:01,650 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-15 12:33:01,656 - TwitterTool - INFO - Detected user tone for @iTanayVaswani: conversational
+2025-05-15 12:33:01,931 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-15 12:33:01,933 - TwitterTool - WARNING - Failed to parse trending hashtags: Expecting value: line 1 column 1 (char 0)
+2025-05-15 12:33:01,934 - TwitterTool - INFO - Sending prompt to LLM for post generation
+2025-05-15 12:33:02,999 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-15 12:33:03,001 - TwitterTool - INFO - Successfully generated post for @iTanayVaswani
+2025-05-15 12:33:13,494 - TwitterTool - INFO - Loaded tweets data for iTanayVaswani
+2025-05-15 12:33:13,495 - TwitterTool - INFO - Generating post for @iTanayVaswani on topic 'Technology' with length 'Long'
+2025-05-15 12:33:13,495 - TwitterTool - INFO - Loaded tweets data for iTanayVaswani
+2025-05-15 12:33:13,496 - TwitterTool - INFO - Loaded analysis data for iTanayVaswani
+2025-05-15 12:33:13,496 - TwitterTool - INFO - Successfully retrieved user information for default_user
+2025-05-15 12:33:13,496 - TwitterTool - INFO - Loaded user info for default_user
+2025-05-15 12:33:13,673 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-15 12:33:13,676 - TwitterTool - INFO - Detected user tone for @iTanayVaswani: conversational
+2025-05-15 12:33:13,956 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-15 12:33:13,962 - TwitterTool - WARNING - Failed to parse trending hashtags: Expecting value: line 1 column 1 (char 0)
+2025-05-15 12:33:13,962 - TwitterTool - INFO - Sending prompt to LLM for post generation
+2025-05-15 12:33:14,034 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-05-15 12:33:14,036 - groq._base_client - INFO - Retrying request to /openai/v1/chat/completions in 11.000000 seconds
+2025-05-15 12:33:26,236 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-15 12:33:26,246 - TwitterTool - INFO - Successfully generated post for @iTanayVaswani
+2025-05-15 12:33:42,925 - TwitterTool - INFO - Loaded tweets data for iTanayVaswani
+2025-05-15 12:33:42,926 - TwitterTool - INFO - Generating post for @iTanayVaswani on topic 'Technology' with length 'Medium'
+2025-05-15 12:33:42,927 - TwitterTool - INFO - Loaded tweets data for iTanayVaswani
+2025-05-15 12:33:42,928 - TwitterTool - INFO - Loaded analysis data for iTanayVaswani
+2025-05-15 12:33:42,929 - TwitterTool - INFO - Successfully retrieved user information for default_user
+2025-05-15 12:33:42,929 - TwitterTool - INFO - Loaded user info for default_user
+2025-05-15 12:33:43,092 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-15 12:33:43,095 - TwitterTool - INFO - Detected user tone for @iTanayVaswani: conversational
+2025-05-15 12:33:43,390 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-15 12:33:43,396 - TwitterTool - WARNING - Failed to parse trending hashtags: Expecting value: line 1 column 1 (char 0)
+2025-05-15 12:33:43,397 - TwitterTool - INFO - Sending prompt to LLM for post generation
+2025-05-15 12:33:43,455 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-05-15 12:33:43,455 - groq._base_client - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-05-15 12:33:46,974 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-15 12:33:46,980 - TwitterTool - INFO - Successfully generated post for @iTanayVaswani
+2025-05-15 12:37:06,694 - TwitterTool - INFO - TwitterTool initialized with data directory: data
+2025-05-15 12:37:18,089 - TwitterTool - INFO - Loaded tweets data for iTanayVaswani
+2025-05-15 12:37:18,091 - TwitterTool - INFO - Generating post for @iTanayVaswani on topic 'startup' with length 'Medium'
+2025-05-15 12:37:18,091 - TwitterTool - INFO - Loaded tweets data for iTanayVaswani
+2025-05-15 12:37:18,091 - TwitterTool - INFO - Loaded analysis data for iTanayVaswani
+2025-05-15 12:37:18,092 - TwitterTool - INFO - Successfully retrieved user information for default_user
+2025-05-15 12:37:18,092 - TwitterTool - INFO - Loaded user info for default_user
+2025-05-15 12:37:18,325 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-15 12:37:18,330 - TwitterTool - INFO - Detected user tone for @iTanayVaswani: conversational
+2025-05-15 12:37:18,667 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-15 12:37:18,969 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-15 12:37:18,970 - TwitterTool - WARNING - Failed to parse trending hashtags: Expecting value: line 1 column 1 (char 0)
+2025-05-15 12:37:18,971 - TwitterTool - INFO - Sending prompt to LLM for post generation
+2025-05-15 12:37:19,565 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-15 12:37:19,567 - TwitterTool - INFO - Successfully generated post for @iTanayVaswani
+2025-05-15 12:37:31,493 - TwitterTool - INFO - Loaded tweets data for iTanayVaswani
+2025-05-15 12:37:31,494 - TwitterTool - INFO - Generating post for @iTanayVaswani on topic 'startup' with length 'Long'
+2025-05-15 12:37:31,495 - TwitterTool - INFO - Loaded tweets data for iTanayVaswani
+2025-05-15 12:37:31,495 - TwitterTool - INFO - Loaded analysis data for iTanayVaswani
+2025-05-15 12:37:31,496 - TwitterTool - INFO - Successfully retrieved user information for default_user
+2025-05-15 12:37:31,496 - TwitterTool - INFO - Loaded user info for default_user
+2025-05-15 12:37:31,676 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-15 12:37:31,679 - TwitterTool - INFO - Detected user tone for @iTanayVaswani: conversational
+2025-05-15 12:37:31,998 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-15 12:37:32,359 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-15 12:37:32,361 - TwitterTool - WARNING - Failed to parse trending hashtags: Expecting value: line 1 column 1 (char 0)
+2025-05-15 12:37:32,361 - TwitterTool - INFO - Sending prompt to LLM for post generation
+2025-05-15 12:37:33,529 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-15 12:37:33,531 - TwitterTool - INFO - Successfully generated post for @iTanayVaswani
+2025-05-15 12:38:28,099 - TwitterTool - INFO - TwitterTool initialized with data directory: data
+2025-05-15 12:38:42,676 - TwitterTool - INFO - TwitterTool initialized with data directory: data
+2025-05-15 12:38:44,877 - TwitterTool - INFO - TwitterTool initialized with data directory: data
+2025-05-15 12:47:09,627 - TwitterTool - INFO - TwitterTool initialized with data directory: data
+2025-05-15 12:48:07,881 - TwitterTool - INFO - TwitterTool initialized with data directory: data
+2025-05-15 12:48:10,727 - TwitterTool - INFO - Loaded tweets data for iTanayVaswani
+2025-05-15 12:48:10,727 - TwitterTool - INFO - Generating post for @iTanayVaswani on topic 'startup' with length 'Long'
+2025-05-15 12:48:10,728 - TwitterTool - INFO - Loaded tweets data for iTanayVaswani
+2025-05-15 12:48:10,728 - TwitterTool - INFO - Loaded analysis data for iTanayVaswani
+2025-05-15 12:48:10,729 - TwitterTool - INFO - Successfully retrieved user information for default_user
+2025-05-15 12:48:10,985 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-15 12:48:11,474 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-15 12:48:11,988 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-15 12:48:11,990 - TwitterTool - INFO - Sending prompt to LLM
+2025-05-15 12:48:13,421 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-15 12:48:26,567 - TwitterTool - INFO - Loaded tweets data for iTanayVaswani
+2025-05-15 12:48:26,568 - TwitterTool - INFO - Generating post for @iTanayVaswani on topic 'startup' with length 'Long'
+2025-05-15 12:48:26,568 - TwitterTool - INFO - Loaded tweets data for iTanayVaswani
+2025-05-15 12:48:26,569 - TwitterTool - INFO - Loaded analysis data for iTanayVaswani
+2025-05-15 12:48:26,569 - TwitterTool - INFO - Successfully retrieved user information for default_user
+2025-05-15 12:48:26,749 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-15 12:48:27,209 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-15 12:48:27,632 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-15 12:48:27,634 - TwitterTool - INFO - Sending prompt to LLM
+2025-05-15 12:48:29,192 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-15 12:48:58,835 - TwitterTool - INFO - Loaded tweets data for iTanayVaswani
+2025-05-15 12:48:58,836 - TwitterTool - INFO - Generating post for @iTanayVaswani on topic 'technology , new projects on ai agents' with length 'Long'
+2025-05-15 12:48:58,836 - TwitterTool - INFO - Loaded tweets data for iTanayVaswani
+2025-05-15 12:48:58,836 - TwitterTool - INFO - Loaded analysis data for iTanayVaswani
+2025-05-15 12:48:58,837 - TwitterTool - INFO - Successfully retrieved user information for default_user
+2025-05-15 12:48:59,008 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-15 12:48:59,501 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-15 12:49:00,116 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-15 12:49:00,118 - TwitterTool - INFO - Sending prompt to LLM
+2025-05-15 12:49:01,857 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-15 12:49:21,421 - TwitterTool - INFO - Loaded tweets data for iTanayVaswani
+2025-05-15 12:49:21,422 - TwitterTool - INFO - Generating post for @iTanayVaswani on topic 'technology , new projects on ai agents' with length 'Medium'
+2025-05-15 12:49:21,423 - TwitterTool - INFO - Loaded tweets data for iTanayVaswani
+2025-05-15 12:49:21,423 - TwitterTool - INFO - Loaded analysis data for iTanayVaswani
+2025-05-15 12:49:21,423 - TwitterTool - INFO - Successfully retrieved user information for default_user
+2025-05-15 12:49:21,605 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-15 12:49:22,030 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-15 12:49:22,509 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-15 12:49:22,511 - TwitterTool - INFO - Sending prompt to LLM
+2025-05-15 12:49:23,188 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-15 12:49:38,722 - TwitterTool - INFO - Loaded tweets data for iTanayVaswani
+2025-05-15 12:49:38,722 - TwitterTool - INFO - Generating post for @iTanayVaswani on topic 'new projects on ai agents' with length 'Medium'
+2025-05-15 12:49:38,722 - TwitterTool - INFO - Loaded tweets data for iTanayVaswani
+2025-05-15 12:49:38,723 - TwitterTool - INFO - Loaded analysis data for iTanayVaswani
+2025-05-15 12:49:38,723 - TwitterTool - INFO - Successfully retrieved user information for default_user
+2025-05-15 12:49:38,883 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-15 12:49:39,439 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-15 12:49:39,848 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-15 12:49:39,850 - TwitterTool - INFO - Sending prompt to LLM
+2025-05-15 12:49:40,463 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-15 13:17:36,132 - TwitterTool - INFO - Loaded tweets data for iTanayVaswani
+2025-05-15 13:17:36,137 - TwitterTool - INFO - Generating post for @iTanayVaswani on topic 'new projects on ai agents' with length 'Medium'
+2025-05-15 13:17:36,137 - TwitterTool - INFO - Loaded tweets data for iTanayVaswani
+2025-05-15 13:17:36,138 - TwitterTool - INFO - Loaded analysis data for iTanayVaswani
+2025-05-15 13:17:36,139 - TwitterTool - INFO - Successfully retrieved user information for default_user
+2025-05-15 13:17:36,445 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-15 13:17:36,886 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-15 13:17:37,378 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-15 13:17:37,381 - TwitterTool - INFO - Sending prompt to LLM
+2025-05-15 13:17:38,097 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"

@@ -1,17 +1,17 @@
 # routes.py
-from fastapi import APIRouter, HTTPException
+from fastapi import APIRouter, HTTPException, Request
 from pydantic import BaseModel
 from typing import Dict, Any, Optional
 from twitter_tool import TwitterTool
 from langchain_groq import ChatGroq
 import os
+from fastapi.responses import JSONResponse
 
 # Initialize router
 router = APIRouter()
 
 # Initialize the Twitter tool
-GROQ_API_KEY = os.getenv("GROQ_API_KEY")
-TAVILY_API_KEY = os.getenv("TAVILY_API_KEY")
+GROQ_API_KEY = "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"
 DATA_DIR = os.getenv("DATA_DIR", "data")
 
 # Create LLM instance
@@ -21,9 +21,8 @@ llm = ChatGroq(
     api_key=GROQ_API_KEY
 )
 
-# Initialize the TwitterTool
+# Initialize the TwitterTool (no need for API key since we're using CLI)
 twitter_tool = TwitterTool(
-    api_key=TAVILY_API_KEY,
     llm=llm,
     data_dir=DATA_DIR
 )
@@ -49,21 +48,20 @@ async def root():
     return {"message": "Twitter Post Generator API is running"}
 
 @router.post("/scrape-profile")
-async def scrape_profile(request: ScrapeProfileRequest):
+async def scrape_profile(request: Request):
     """Scrape a Twitter profile and analyze the tweets."""
-    if not request.username:
-        raise HTTPException(status_code=400, detail="Username is required")
-    
-    result = twitter_tool.scrape_profile(request.username)
-    
+    data = await request.json()
+    result = await twitter_tool.scrape_profile(data["username"])
     if not result.get("success"):
         raise HTTPException(status_code=500, detail=result.get("message", "Unknown error"))
-    
-    return result
+    return JSONResponse(result)
 
 @router.post("/generate-post/{username}")
 async def generate_post(username: str, request: GeneratePostRequest):
     """Generate a post based on a Twitter profile and optional user info."""
+    # Remove @ symbol if present
+    username = username.strip("@")
+    
     tweets = twitter_tool.load_data(username, "tweets")
     
     if not tweets:

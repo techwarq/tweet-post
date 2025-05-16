@@ -1,58 +1,24 @@
 [
     {
-        "text": "Scenario: You've just been hired as Head of Growth at @AnthropicAI Your only goal: get Claude's DAU above ChatGPT's How do you do it?",
-        "likes": 471,
-        "retweets": 53,
-        "views": 277,
-        "url": null,
-        "engagement_score": 995
+        "id": "2",
+        "text": "Another example tweet discussing current trends",
+        "likes": 200,
+        "retweets": 45,
+        "replies": 15,
+        "views": 2000,
+        "engagement_score": 312.5,
+        "user": "safwaankay",
+        "date": "2025-05-15T09:47:54.874566"
     },
     {
-        "text": "One thing I've noticed in many of my smart and ambitious friends: They've all had to walk themselves back from Nihilism. They're smart, so they realize that 'nothing matters.' But this neutered their ambition. So they actively ignore this realization so they can become great.",
-        "likes": 273,
-        "retweets": 352,
-        "views": 315,
-        "url": null,
-        "engagement_score": 977
-    },
-    {
-        "text": "It's hard to trust someone that uses 'bud' or 'buddy' They're either - Condescending - Have no social awareness Either way, not good",
-        "likes": 496,
-        "retweets": 181,
-        "views": 346,
-        "url": null,
-        "engagement_score": 873
-    },
-    {
-        "text": "Download this app & thank me later (You don\u2019t need to onboard just download & open it)",
-        "likes": 112,
-        "retweets": 86,
-        "views": 822,
-        "url": null,
-        "engagement_score": 280
-    },
-    {
-        "text": "Just found the coolest startup 1/ Create AI designs (of physical items) 2/ Publish them 3/ If they get enough likes & preorders, the startup will turn them into a physical product 4/ You'll keep 70% of the revenue @offscriptmtl",
-        "likes": 7,
-        "retweets": 58,
-        "views": 197,
-        "url": null,
-        "engagement_score": 122
-    },
-    {
-        "text": "We built Pinterest for Ads A fast, free visual search engine for Meta Ads - 3000+ ads - Search for things like \"before vs after\", \"us vs them\", \"Yeti\", \"pink\", etc - Fast & FREE Try for free at beam . new If this gets 250+ likes, we'll add 20,000+ more curated Meta Ads",
-        "likes": 35,
+        "id": "1",
+        "text": "Example tweet about technology and innovation",
+        "likes": 150,
         "retweets": 30,
-        "views": 41,
-        "url": null,
-        "engagement_score": 100
-    },
-    {
-        "text": "Found another sick AI startup - Give it an AliExpress link - Autogenerates Shopify store - Even pulls in the relevant ad creatives pagepilot . ai",
-        "likes": null,
-        "retweets": null,
-        "views": null,
-        "url": null,
-        "engagement_score": 0
+        "replies": 10,
+        "views": 1500,
+        "engagement_score": 225,
+        "user": "safwaankay",
+        "date": "2025-05-15T09:47:54.874541"
     }
 ]

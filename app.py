@@ -22,31 +22,57 @@ st.markdown("""
     border-left: 4px solid #1DA1F2;
     padding-left: 12px;
     margin-bottom: 16px;
+    color: #000000;
 }
 .long-tweet {
     background-color: #f5f8fa;
     padding: 16px;
     border-radius: 8px;
     margin-bottom: 16px;
+    color: #000000;
 }
 .thread-container {
     background-color: #f5f8fa;
-    padding: 16px;
-    border-radius: 8px;
+    padding: 20px;
+    border-radius: 12px;
     margin-bottom: 16px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    color: #000000;
 }
 .thread-part {
     border-left: 4px solid #1DA1F2;
-    padding: 12px;
-    margin-bottom: 12px;
+    padding: 16px;
+    margin-bottom: 16px;
     background-color: white;
-    border-radius: 4px;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+    transition: all 0.3s ease;
+    color: #000000;
+}
+.thread-part p {
+    color: #000000;
+    margin: 0;
+}
+.thread-part strong {
+    color: #1DA1F2;
+}
+.thread-part:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 .user-info-section {
     background-color: #000000;
     padding: 16px;
     border-radius: 8px;
     margin-bottom: 16px;
+    color: #ffffff;
+}
+.copy-section {
+    background-color: #f0f8ff;
+    padding: 16px;
+    border-radius: 8px;
+    border: 2px dashed #1DA1F2;
+    color: #000000;
 }
 </style>
 """, unsafe_allow_html=True)
@@ -68,29 +94,93 @@ with st.sidebar:
     
     st.header("Length Options")
     st.markdown("""
-    - **Short**: Under 15 words
-    - **Medium**: 15-40 words
-    - **Long**: 40-280 words (full thread)
+    - **Short**: 15-25 words (Quick one-liners)
+    - **Medium**: 40-70 words (Standard tweets)
+    - **Long**: 200-280 words (Full thread with 3-5 tweets)
     """)
     
     st.header("Credits")
-    st.markdown("Built with Tavily, Groq, and FastAPI")
+    st.markdown("Built with Groq and FastAPI")
 
 def format_long_tweet(post_text):
     """Format long tweets or threads for better display."""
     if not post_text:
         return ""
     
+    # If it's already an array, convert to string first
+    if isinstance(post_text, list):
+        post_text = "\n\n".join(post_text)
+    
+    # Check if this is a numbered thread (contains 1/X, 2/X, etc.)
+    import re
+    thread_pattern = r'^\d+/\d+'
+    lines = post_text.split('\n')
+    
+    # Detect if it's a numbered thread
+    is_numbered_thread = False
+    thread_parts = []
+    current_part = []
+    
+    for line in lines:
+        line = line.strip()
+        if line and re.match(thread_pattern, line):
+            # Start of a new tweet in the thread
+            if current_part:
+                # Join the previous part
+                thread_parts.append('\n'.join(current_part).strip())
+            current_part = [line]
+            is_numbered_thread = True
+        elif line:
+            current_part.append(line)
+        elif current_part and not line:
+            # Empty line might indicate end of tweet
+            if is_numbered_thread and current_part:
+                thread_parts.append('\n'.join(current_part).strip())
+                current_part = []
+    
+    # Add the last part
+    if current_part:
+        thread_parts.append('\n'.join(current_part).strip())
+    
+    # Format as thread if it's numbered
+    if is_numbered_thread and thread_parts:
+        formatted_parts = []
+        for i, part in enumerate(thread_parts):
+            # Extract tweet number from the part
+            match = re.match(r'^(\d+/\d+)\s*(.*)', part, re.DOTALL)
+            if match:
+                tweet_num = match.group(1)
+                tweet_text = match.group(2).strip()
+                formatted_parts.append(f"""
+                <div class="thread-part">
+                    <strong style="color: #1DA1F2; font-size: 1.1em;">{tweet_num}</strong>
+                    <p style="margin-top: 8px;">{tweet_text}</p>
+                </div>
+                """)
+            else:
+                formatted_parts.append(f"""
+                <div class="thread-part">
+                    <p>{part}</p>
+                </div>
+                """)
+        
+        return f"""
+        <div class="thread-container">
+            <h4 style="color: #1DA1F2; margin-bottom: 16px;">🧵 Twitter Thread ({len(thread_parts)} tweets):</h4>
+            {''.join(formatted_parts)}
+        </div>
+        """
+    
     # Check if this is potentially a thread (contains multiple paragraphs)
     paragraphs = [p for p in post_text.split('\n\n') if p.strip()]
     
-    # For threads with clear parts
-    if len(paragraphs) > 1:
+    # For threads with clear parts but no numbering
+    if len(paragraphs) > 2:
         formatted_parts = []
         for i, part in enumerate(paragraphs):
             formatted_parts.append(f"""
             <div class="thread-part">
-                <strong>Part {i+1}/{len(paragraphs)}</strong>
+                <strong>Tweet {i+1}</strong>
                 <p>{part}</p>
             </div>
             """)
@@ -105,7 +195,7 @@ def format_long_tweet(post_text):
     # For single long tweets that aren't threads
     return f"""
     <div class="long-tweet">
-        <h4>Long Tweet:</h4>
+        <h4>Extended Tweet:</h4>
         <p>{post_text}</p>
     </div>
     """
@@ -345,9 +435,9 @@ with tab3:
         # Length selection with improved descriptions
         length_options = ["Short", "Medium", "Long"]
         length_descriptions = {
-            "Short": "Under 15 words - Quick one-liners",
-            "Medium": "15-40 words - Standard tweets",
-            "Long": "40-280 words - Extended posts or threads"
+            "Short": "15-25 words - Quick one-liners",
+            "Medium": "40-70 words - Standard tweets",
+            "Long": "200-280 words - Full thread (3-5 tweets)"
         }
         selected_length = st.selectbox(
             "Length", 
@@ -416,12 +506,18 @@ with tab3:
                         
                         # Get the post text with fallback
                         post_text = post_data.get("post", "")
+                        
+                        # Handle array format for threads
+                        if isinstance(post_text, list):
+                            # It's a thread, join with double newlines for formatting
+                            post_text = "\n\n".join(post_text)
+                        
                         if not post_text and "error" in post_data:
                             st.error(f"Error in post generation: {post_data['error']}")
                             st.stop()
                         
                         # Display the post with appropriate formatting based on length
-                        if selected_length == "Long":
+                        if selected_length == "Long" or isinstance(post_data.get("post"), list):
                             # For longer tweets or threads, use the formatting function
                             st.markdown(format_long_tweet(post_text), unsafe_allow_html=True)
                         else:
@@ -442,12 +538,32 @@ with tab3:
                             # Display best time to post
                             if "best_time" in post_data:
                                 st.markdown(f"**Best Posting Time:** {post_data['best_time']}")
+                            elif "besttime" in post_data:  # Handle alternate key name
+                                st.markdown(f"**Best Posting Time:** {post_data['besttime']}")
                         
                         with col2:
                             # Display engagement prediction
+                            engagement = None
                             if "engagement_prediction" in post_data:
-                                engagement = post_data['engagement_prediction'].upper()
+                                engagement = post_data['engagement_prediction']
+                            elif "engagementprediction" in post_data:  # Handle alternate key name
+                                engagement = post_data['engagementprediction']
+                            
+                            if engagement:
+                                engagement = engagement.upper()
                                 st.markdown(f"**Engagement Prediction:** {engagement}")
+                            
+                            # Display viral elements if available
+                            viral_elements = None
+                            if "viral_elements" in post_data:
+                                viral_elements = post_data['viral_elements']
+                            elif "viralelements" in post_data:  # Handle alternate key name
+                                viral_elements = post_data['viralelements']
+                            
+                            if viral_elements and isinstance(viral_elements, list):
+                                st.markdown("**Viral Elements Used:**")
+                                for element in viral_elements:
+                                    st.markdown(f"- {element}")
                             
                             # Display estimated metrics if available
                             estimated_metrics = post_data.get("estimated_metrics", {})
@@ -462,14 +578,32 @@ with tab3:
                         
                         # Full post for copying
                         st.subheader("Copy Ready Version")
-                        full_post = post_text
-                        if post_data.get("hashtags") and isinstance(post_data["hashtags"], list):
-                            hashtags = [tag for tag in post_data["hashtags"] if tag]
-                            if hashtags:
-                                hashtag_text = " ".join([f"#{tag}" for tag in hashtags])
-                                full_post += f"\n\n{hashtag_text}"
                         
-                        st.text_area("Copy Post", value=full_post, height=150)
+                        # Handle array format for threads
+                        if isinstance(post_data.get("post"), list):
+                            # It's a thread - format each tweet separately
+                            full_post_parts = []
+                            for i, tweet in enumerate(post_data["post"]):
+                                full_post_parts.append(tweet)
+                                
+                            # Add hashtags to the last tweet
+                            if post_data.get("hashtags") and isinstance(post_data["hashtags"], list):
+                                hashtags = [tag for tag in post_data["hashtags"] if tag]
+                                if hashtags and full_post_parts:
+                                    hashtag_text = " ".join([f"#{tag}" for tag in hashtags])
+                                    full_post_parts[-1] += f"\n\n{hashtag_text}"
+                            
+                            full_post = "\n\n---\n\n".join(full_post_parts)
+                        else:
+                            # Single tweet
+                            full_post = post_text
+                            if post_data.get("hashtags") and isinstance(post_data["hashtags"], list):
+                                hashtags = [tag for tag in post_data["hashtags"] if tag]
+                                if hashtags:
+                                    hashtag_text = " ".join([f"#{tag}" for tag in hashtags])
+                                    full_post += f"\n\n{hashtag_text}"
+                        
+                        st.text_area("Copy Post", value=full_post, height=300 if isinstance(post_data.get("post"), list) else 150)
                         
                         # Add a regenerate button
                         if st.button("Regenerate Post"):

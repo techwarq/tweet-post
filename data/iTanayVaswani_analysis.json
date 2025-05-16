@@ -1,0 +1,19 @@
+{
+    "content_patterns": [
+        "mentions of tech industry personalities",
+        "opinions on industry trends",
+        "personal anecdotes"
+    ],
+    "style_elements": [
+        "informal tone",
+        "use of colloquial language",
+        "assertive statements"
+    ],
+    "optimal_format": "short, conversational tweets with a strong opinion or insight",
+    "recommendations": [
+        "use names and references that resonate with your audience",
+        "make bold claims or predictions",
+        "keep your tweets concise and scannable"
+    ],
+    "success": true
+}

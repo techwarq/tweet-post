@@ -1,16 +1,16 @@
 {
     "name": "sonali",
-    "profession": "Developer",
+    "profession": "ai, development",
     "interests": [
         "ai",
-        "startups",
-        "tech"
+        "startup",
+        "devlopement"
     ],
-    "expertise": "Ai, Full stack, backend",
+    "expertise": "Ai, Fullstack dev",
     "style": "Casual",
     "education": "cs degree",
     "location": "bengenluru",
-    "achievements": "working at a ai startup",
+    "achievements": "Working at a ai startup as a founding member",
     "audience": "tech",
-    "topics_to_avoid": "none"
+    "topics_to_avoid": "nono"
 }
